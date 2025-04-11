@@ -10,35 +10,34 @@
 </head>
 <body>
   <div class="logo-container">
-    <img src="StarTrace-logo.jpg" alt="TuneTide Logo" class="logo" />
+    <img src="StarTrace-logo.jpg" alt="TuneTide Logo" class="logo spin-slow twinkle pulse-glow" />
   </div>
   <h1>StarTrace</h1>
   <h2>– Your Daily Dose of the Universe.</h2>
   <h3>Select date below:</h3>
   <input type="date" id="dateInput" placeholder="Select Date"/>
 
-  <div id="spinner" class="hidden">🚀 Loading...</div>
-  <div id="milestone" class="milestone-box">
-    <h3>🚀 On This Day in Space History</h3>
-    <div id="milestoneContent"></div>
+  <div id="spinner" class="hidden twinkle">🚀 Loading...</div>
+  <div id="milestone" class="milestone-box float">
+    <h3 class="pulse-glow">🚀 On This Day in Space History</h3>
+    <div id="milestoneContent" class="accordion-down"></div>
   </div>
-  <div id="POTD" class="POTD">
-    <h3>🛰Space Picture of the day</h3>
-    <div id="POTD"></div>
+  <div id="POTD" class="POTD float">
+    <h3 class="pulse-glow">🛰 Space Picture of the day</h3>
+    <div id="POTD" class="accordion-down"></div>
   </div>
 
   
 
-  <div id="apodBox" class="hidden">
-    <h2 id="title"></h2>
-    <p id="dateText"></p>
-    <div id="media"></div>
-    <div id="apodActions" class="apod-actions">
+  <div id="apodBox" class="hidden float">
+    <h2 id="title" class="twinkle"></h2>
+    <p id="dateText" class="twinkle"></p>
+    <div id="media" class="pulse-glow"></div>
+    <div id="apodActions" class="apod-actions twinkle">
       <button id="downloadBtn">Check out this Image</button>
       <button id="shareBtn">Share on Twitter</button>
     </div>
-    
-    <p id="explanation"></p>
+    <p id="explanation" class="accordion-down"></p>
   </div>
 
   
@@ -46,7 +45,7 @@
 
   <!-- Main Script -->
   <script src="script.js"></script>
-  <footer class="footer">
+  <footer class="footer twinkle">
     <p>🚀 Built with 💙 by Sheetal Bajaj | Data from NASA APOD API & curated space milestones</p>
   </footer>
 

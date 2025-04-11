@@ -1,272 +1,264 @@
+/* === Animation Keyframes === */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
 
-  .logo-container {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .logo {
-    max-width: 150px;
-    width: 15%;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 20%;
-  }
-  
-  /* Responsive handling */
-  @media screen and (max-width: 768px) {
-    .logo {
-      width: 25%;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .logo {
-      width: 25%;
-    }
-  }
- 
-  
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    background-image: url(StarTrace-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+@keyframes accordion-down {
+  from { max-height: 0; opacity: 0; }
+  to { max-height: 500px; opacity: 1; }
+}
 
-    color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* Header */
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #f7d84c;
-  }
-  h2{
-    color: #f9e488;
-  }
-  h3{
-    color: #fae068;
-  }
-  
-  /* Date Input */
-  #dateInput {
-    padding: 10px;
-    border-radius: 6px;
-    border: none;
-    font-size: 1rem;
-    margin-bottom: 20px;
-  }
-  
-  /* Spinner */
-  #spinner {
-    font-size: 1.2rem;
-    color: #00ffcc;
-    margin: 15px 0;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  /* Milestone Section */
-  .milestone-box {
-    background-color: #00001f;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 25px;
-  }
-  .POTD{
-    background-color: #00001f;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 25px;
-  }
-  
-  .milestone-entry,
-  .milestone-item {
-    background-color: #00001f;
-    padding: 10px;
-    border-radius: 8px;
-    margin: 10px 0;
-    text-align: left;
-  }
-  .milestone-entry em,
-  .milestone-entry strong{
-    color: #ffd415;
+@keyframes accordion-up {
+  from { max-height: 500px; opacity: 1; }
+  to { max-height: 0; opacity: 0; }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-glow {
+  0% { box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); }
+  50% { box-shadow: 0 0 20px rgba(255, 255, 255, 0.6); }
+  100% { box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); }
+}
+
+/* === Animation Classes === */
+.spin-slow {
+  animation: spin 20s linear infinite;
+}
+
+.accordion-down {
+  animation: accordion-down 0.2s ease-out;
+}
+
+.accordion-up {
+  animation: accordion-up 0.2s ease-out;
+}
+
+.twinkle {
+  animation: twinkle 3s ease-in-out infinite;
+}
+
+.float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
+
+/* === Logo Styling with Animations === */
+.logo-container {
+  text-align: center;
+  margin-top: 20px;
+  animation: float 6s ease-in-out infinite;
+}
+
+.logo {
+  max-width: 150px;
+  width: 15%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 20%;
+  animation: spin 20s linear infinite;
+}
+
+/* Responsive logo */
+@media screen and (max-width: 768px) {
+  .logo { width: 25%; }
+}
+@media screen and (max-width: 480px) {
+  .logo { width: 25%; }
+}
+
+/* === General Reset & Global Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(StarTrace-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* === Headings === */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f7d84c;
+  animation: twinkle 3s ease-in-out infinite;
+}
+h2 {
+  color: #f9e488;
+  animation: twinkle 3s ease-in-out infinite;
+}
+h3 {
+  color: #fae068;
+  animation: twinkle 3s ease-in-out infinite;
+}
+
+/* === Date Input === */
+#dateInput {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* === Spinner === */
+#spinner {
+  font-size: 1.2rem;
+  color: #00ffcc;
+  margin: 15px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* === Milestone Section === */
+.milestone-box {
+  background-color: #00001f;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 25px;
+  animation: accordion-down 0.2s ease-out;
+}
+
+.POTD {
+  background-color: #00001f;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 25px;
+  animation: accordion-up 0.2s ease-out;
+}
+
+.milestone-entry,
+.milestone-item {
+  background-color: #00001f;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.milestone-entry em,
+.milestone-entry strong {
+  color: #ffd415;
   font-style: italic;
-  }
-  .milestone-item h4 {
-    color: #ffc107;
-    font-style: italic;
-  }
-  
-  .milestone-item p {
-    margin: 5px 0;
-  }
-  
-  /* APOD Section */
-  #apodBox {
-    margin-top: 30px;
-  }
-  
-  #media img,
-  #media iframe {
-    max-width: 100%;
-    border-radius: 10px;
-    margin: 15px 0;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-  }
-  
-  /* Explanation */
-  #explanation {
-    text-align: justify;
-    padding: 10px;
-    line-height: 1.6;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 10px;
-    margin-top: 15px;
-  }
-  
-  /* Buttons */
-  .apod-actions {
-    margin-top: 15px;
-  }
-  
-  button {
-    background-color: #ff4081;
-    border: none;
-    color: white;
-    padding: 10px 18px;
-    margin: 5px;
-    border-radius: 8px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #e73370;
-  }
-  
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
-  
-  .hidden {
-    display: none;
-  }
-  
- 
-  /* ===== Media Queries ===== */
-  
-  /* Mobile */
-  @media (max-width: 480px) {
-    h1 {
-      font-size: 1.6rem;
-    }
-  
-    input[type="date"] {
-      width: 90%;
-    }
-  
-    #apodBox, .milestone-box {
-      padding: 1rem;
-      margin: 1rem;
-    }
-  
-    #explanation {
-      font-size: 0.95rem;
-    }
-  
-    #milestoneContent div {
-      font-size: 0.9rem;
-    }
-  }
-  
-  /* Tablets */
-  @media (min-width: 481px) and (max-width: 768px) {
-    h1 {
-      font-size: 1.8rem;
-    }
-  
-    input[type="date"] {
-      font-size: 1rem;
-    }
-  
-    #apodBox, .milestone-box {
-      padding: 1.2rem;
-    }
-  
-    #explanation {
-      font-size: 1rem;
-    }
-  }
-  
-  /* Laptops & Desktops */
-  @media (min-width: 769px) {
-    h1 {
-      font-size: 2.5rem;
-    }
-  
-    #apodBox, .milestone-box {
-      padding: 2rem;
-    }
-  
-    #explanation {
-      font-size: 1.05rem;
-    }
-  
-    #milestoneContent div {
-      font-size: 1rem;
-    }
-  }
-  .apod-actions {
-    margin-top: 15px;
-  }
-  
-  .apod-actions button {
-    padding: 8px 14px;
-    margin-right: 10px;
-    background-color: #1a1a1a;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .apod-actions button:hover {
-    background-color: #333;
-  }
-  /* Footer styling */
+}
+
+.milestone-item h4 {
+  color: #ffc107;
+  font-style: italic;
+}
+
+.milestone-item p {
+  margin: 5px 0;
+}
+
+/* === APOD Section === */
+#apodBox {
+  margin-top: 30px;
+}
+
+#media img,
+#media iframe {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Explanation */
+#explanation {
+  text-align: justify;
+  padding: 10px;
+  line-height: 1.6;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/* Buttons */
+.apod-actions {
+  margin-top: 15px;
+}
+
+button {
+  background-color: #ff4081;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  animation: pulse-glow 2s infinite;
+}
+
+button:hover {
+  background-color: #e73370;
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(255, 231, 93);
+  background: #000017;
+  opacity: 0.5;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100%;
+  top: 2px;
+  animation: twinkle 3s ease-in-out infinite;
+}
+
+/* === Responsive Styles === */
+@media screen and (max-width: 480px) {
+  h1 { font-size: 1.6rem; }
+  input[type="date"] { width: 90%; }
+  #apodBox, .milestone-box { padding: 1rem; margin: 1rem; }
+  #explanation { font-size: 0.95rem; }
+  #milestoneContent div { font-size: 0.9rem; }
+
   .footer {
-    text-align: center;
-    font-size: 14px;
-    color: rgb(255, 231, 93);
-    background: #000017;
-    opacity: 0.5;
-    padding: 10px 0;
-    border-radius: 5px;
-    width: 100%;
-    top:2px;
+    font-size: 0.9rem;
+    padding: 12px 5px;
   }
-  
-  /* Responsive footer */
-  @media screen and (max-width: 480px) {
-    .footer {
-      font-size: 0.9rem;
-      padding: 12px 5px;
-    }
-  }  
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  h1 { font-size: 1.8rem; }
+  input[type="date"] { font-size: 1rem; }
+  #apodBox, .milestone-box { padding: 1.2rem; }
+  #explanation { font-size: 1rem; }
+}
+
+@media (min-width: 769px) {
+  h1 { font-size: 2.5rem; }
+  #apodBox, .milestone-box { padding: 2rem; }
+  #explanation { font-size: 1.05rem; }
+  #milestoneContent div { font-size: 1rem; }
+}
