@@ -91,10 +91,14 @@
     margin: 10px 0;
     text-align: left;
   }
-  
-  .milestone-entry strong,
+  .milestone-entry em,
+  .milestone-entry strong{
+    color: #ffd415;
+  font-style: italic;
+  }
   .milestone-item h4 {
     color: #ffc107;
+    font-style: italic;
   }
   
   .milestone-item p {
