@@ -122,3 +122,8 @@ for (let i = 0; i < 75; i++) {
   glowStar.style.animationDelay = `${Math.random() * 5}s`;
   starContainer.appendChild(glowStar);
 }
+window.scrollTo({
+  top: 0,
+  behavior: 'smooth'
+});
+
