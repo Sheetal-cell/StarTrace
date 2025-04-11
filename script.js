@@ -72,8 +72,15 @@ dateInput.addEventListener("change", async () => {
 
   try {
     const response = await fetch(`/api/apod?date=${selectedDate}`);
+    
+    // Check if the response is ok
+    if (!response.ok) {
+      throw new Error("APOD not available for this date yet.");
+    }
+
     const data = await response.json();
 
+    // Show APOD data
     title.textContent = data.title;
     dateText.textContent = data.date;
     explanation.textContent = data.explanation;
@@ -84,11 +91,12 @@ dateInput.addEventListener("change", async () => {
 
     apodBox.classList.remove("hidden");
 
+    // Show milestones
     const [year, month, day] = selectedDate.split("-").map(Number);
-    const selectedMilestones = milestones.filter(m => m.month === month && m.day === day);
+    const todayMilestones = milestones.filter(m => m.month === month && m.day === day);
 
-    if (selectedMilestones.length > 0) {
-      milestoneContent.innerHTML = selectedMilestones.map(m => `
+    if (todayMilestones.length > 0) {
+      milestoneContent.innerHTML = todayMilestones.map(m => `
         <div class="milestone-entry">
           <strong>${m.year} — ${m.title}</strong><br />
           <em>${m.country}</em>: ${m.description}
@@ -98,11 +106,19 @@ dateInput.addEventListener("change", async () => {
     }
 
   } catch (error) {
-    console.error("Error fetching APOD:", error);
+    console.warn("Error fetching APOD:", error);
+
+    // Show user-friendly message
+    apodBox.classList.remove("hidden");
+    title.textContent = "APOD Not Available Yet";
+    dateText.textContent = selectedDate;
+    media.innerHTML = `<p style="color: white;">The Astronomy Picture of the Day for today isn't available yet. Please check back later!</p>`;
+    explanation.textContent = "";
   } finally {
     spinner.classList.add("hidden");
   }
 });
+
 
 // Download Image
 document.getElementById("downloadBtn").addEventListener("click", () => {
