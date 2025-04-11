@@ -114,7 +114,7 @@ for (let i = 0; i < 10; i++) {
 }
 const starContainer = document.getElementById("starContainer");
 
-for (let i = 0; i < 80; i++) {
+for (let i = 0; i < 75; i++) {
   const glowStar = document.createElement("div");
   glowStar.classList.add("glowing-star");
   glowStar.style.top = `${Math.random() * 100}vh`;

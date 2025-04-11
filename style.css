@@ -133,7 +133,7 @@ h3 {
 /* === Milestones === */
 .milestone-box,
 .POTD {
-  background-color: #000000;
+  background-color: #002a39;
   
   padding: 20px;
   border-radius: 10px;
@@ -142,7 +142,7 @@ h3 {
 
 .milestone-entry,
 .milestone-item {
-  background-color:#000000;
+  background-color:#01001b;
   padding: 10px;
   border-radius: 8px;
   margin: 10px 0;
@@ -151,7 +151,7 @@ h3 {
 
 .milestone-entry em,
 .milestone-entry strong {
-  color: #ffd415;
+  color: #ffd000;
   font-style: italic;
 }
 
@@ -217,8 +217,8 @@ button:hover {
 .footer {
   text-align: center;
   font-size: 14px;
-  color: rgb(255, 231, 93);
-  background: #000000;
+  color: rgb(255, 225, 55);
+  background: #002a39;
   opacity: 0.5;
   padding: 10px 0;
   border-radius: 5px;
