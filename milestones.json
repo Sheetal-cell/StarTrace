@@ -246,6 +246,238 @@
       "title": "Super Blue Blood Moon",
       "description": "A rare celestial event combining a supermoon, blue moon, and lunar eclipse.",
       "country": "Global"
-    }
+    },
+    {
+        "month": 2,
+        "day": 1,
+        "year": 2003,
+        "title": "Columbia Shuttle Disaster",
+        "description": "NASA's Space Shuttle Columbia disintegrated upon re-entry, killing all seven astronauts on board.",
+        "country": "USA"
+      },
+      {
+        "month": 2,
+        "day": 2,
+        "year": 2009,
+        "title": "Iran Launches Omid Satellite",
+        "description": "Iran successfully launched its first domestically made satellite, Omid, into orbit.",
+        "country": "Iran"
+      },
+      {
+        "month": 2,
+        "day": 3,
+        "year": 1966,
+        "title": "Luna 9 Lands on Moon",
+        "description": "The USSR's Luna 9 became the first spacecraft to achieve a soft landing on the Moon.",
+        "country": "USSR"
+      },
+      {
+        "month": 2,
+        "day": 4,
+        "year": 2004,
+        "title": "Rosetta Launched",
+        "description": "ESA launched the Rosetta spacecraft to study comet 67P/Churyumov–Gerasimenko.",
+        "country": "ESA"
+      },
+      {
+        "month": 2,
+        "day": 5,
+        "year": 1971,
+        "title": "Apollo 14 Moon Landing",
+        "description": "Apollo 14 astronauts Alan Shepard and Edgar Mitchell landed on the Moon.",
+        "country": "USA"
+      },
+      {
+        "month": 2,
+        "day": 6,
+        "year": 2010,
+        "title": "India's GSAT-4 Launch Failure",
+        "description": "India's GSAT-4 satellite launch failed due to cryogenic stage malfunction.",
+        "country": "India"
+      },
+      {
+        "month": 2,
+        "day": 7,
+        "year": 1999,
+        "title": "STS-98 Launch",
+        "description": "NASA launched Space Shuttle Atlantis on mission STS-98 to deliver Destiny lab to the ISS.",
+        "country": "USA"
+      },
+      {
+        "month": 2,
+        "day": 8,
+        "year": 2014,
+        "title": "GSAT-14 Launched",
+        "description": "ISRO successfully launched GSAT-14 using the GSLV Mk II with an indigenous cryogenic engine.",
+        "country": "India"
+      },
+      {
+        "month": 2,
+        "day": 9,
+        "year": 1990,
+        "title": "Galileo Flyby of Venus",
+        "description": "NASA's Galileo spacecraft conducted a flyby of Venus to gain speed for its journey to Jupiter.",
+        "country": "USA"
+      },
+      {
+        "month": 2,
+        "day": 10,
+        "year": 2009,
+        "title": "First Satellite Collision",
+        "description": "An Iridium communication satellite and a defunct Russian satellite collided in orbit.",
+        "country": "Global"
+      },
+      {
+        "month": 2,
+        "day": 11,
+        "year": 2010,
+        "title": "Solar Dynamics Observatory Launch",
+        "description": "NASA launched the Solar Dynamics Observatory to study the Sun.",
+        "country": "USA"
+      },
+      {
+        "month": 2,
+        "day": 12,
+        "year": 2001,
+        "title": "NEAR Shoemaker Lands on Asteroid",
+        "description": "NASA's NEAR Shoemaker became the first spacecraft to land on an asteroid (Eros).",
+        "country": "USA"
+      },
+      {
+        "month": 2,
+        "day": 13,
+        "year": 2020,
+        "title": "ISRO Unveils Human Spaceflight Training",
+        "description": "ISRO announced Gaganyaan astronaut training had begun in collaboration with Russia.",
+        "country": "India"
+      },
+      {
+        "month": 2,
+        "day": 14,
+        "year": 1990,
+        "title": "Voyager 1's Pale Blue Dot Photo",
+        "description": "NASA's Voyager 1 captured the famous Pale Blue Dot photo of Earth from 6 billion km away.",
+        "country": "USA"
+      },
+      {
+        "month": 2,
+        "day": 15,
+        "year": 2013,
+        "title": "Chelyabinsk Meteor",
+        "description": "A meteor exploded over Chelyabinsk, Russia, injuring over 1,000 people and shocking the world.",
+        "country": "Russia"
+      },
+      {
+        "month": 2,
+        "day": 16,
+        "year": 1993,
+        "title": "IRS-1E Launched",
+        "description": "India launched IRS-1E for remote sensing, but the mission failed due to rocket malfunction.",
+        "country": "India"
+      },
+      {
+        "month": 2,
+        "day": 17,
+        "year": 1959,
+        "title": "Vanguard 2 Launched",
+        "description": "USA launched Vanguard 2, the first weather satellite, to measure cloud cover.",
+        "country": "USA"
+      },
+      {
+        "month": 2,
+        "day": 18,
+        "year": 2021,
+        "title": "Perseverance Rover Lands on Mars",
+        "description": "NASA's Perseverance rover successfully landed on Mars to search for signs of ancient life.",
+        "country": "USA"
+      },
+      {
+        "month": 2,
+        "day": 19,
+        "year": 1986,
+        "title": "Mir Space Station Launched",
+        "description": "The USSR launched the core module of the Mir space station into orbit.",
+        "country": "USSR"
+      },
+      {
+        "month": 2,
+        "day": 20,
+        "year": 1962,
+        "title": "John Glenn Orbits Earth",
+        "description": "John Glenn became the first American to orbit the Earth aboard Friendship 7.",
+        "country": "USA"
+      },
+      {
+        "month": 2,
+        "day": 21,
+        "year": 2008,
+        "title": "ISRO Launches PSLV-C10",
+        "description": "ISRO successfully launched PSLV-C10 carrying an Israeli satellite, strengthening international ties.",
+        "country": "India"
+      },
+      {
+        "month": 2,
+        "day": 22,
+        "year": 2017,
+        "title": "TRAPPIST-1 Discovery",
+        "description": "NASA announced discovery of seven Earth-sized planets orbiting the TRAPPIST-1 star.",
+        "country": "World"
+      },
+      {
+        "month": 2,
+        "day": 23,
+        "year": 2019,
+        "title": "India Launches PSLV-C45",
+        "description": "ISRO launched PSLV-C45 carrying EMISAT and 28 international customer satellites.",
+        "country": "India"
+      },
+      {
+        "month": 2,
+        "day": 24,
+        "year": 1969,
+        "title": "Mariner 6 Launch",
+        "description": "NASA launched Mariner 6 to fly by Mars and send back close-up images.",
+        "country": "USA"
+      },
+      {
+        "month": 2,
+        "day": 25,
+        "year": 2007,
+        "title": "INSAT-4B Launched",
+        "description": "India launched INSAT-4B for communication services and television broadcasting.",
+        "country": "India"
+      },
+      {
+        "month": 2,
+        "day": 26,
+        "year": 2012,
+        "title": "ISRO Launches PSLV-C19",
+        "description": "India successfully launched PSLV-C19 carrying RISAT-1, a radar imaging satellite.",
+        "country": "India"
+      },
+      {
+        "month": 2,
+        "day": 27,
+        "year": 2014,
+        "title": "India's GSLV Mk III First Test",
+        "description": "India conducted a successful suborbital test of GSLV Mk III, marking a milestone for heavier payload launches.",
+        "country": "India"
+      },
+      {
+        "month": 2,
+        "day": 28,
+        "year": 1994,
+        "title": "Discovery Launches STS-62",
+        "description": "Space Shuttle Discovery launched STS-62 for microgravity and atmospheric research.",
+        "country": "USA"
+      },
+      {
+        "month": 2,
+        "day": 29,
+        "year": 2016,
+        "title": "India Launches IRNSS-1F",
+        "description": "ISRO launched IRNSS-1F, part of the Indian Regional Navigation Satellite System (IRNSS).",
+        "country": "India"
+      }
   ]
   
