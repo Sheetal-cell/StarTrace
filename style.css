@@ -93,6 +93,9 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: gives a nice parallax feel */
+  min-height: 100vh; /* Ensures body covers full viewport height */
+  
   color: #f0f0f0;
   padding: 20px;
   text-align: center;
