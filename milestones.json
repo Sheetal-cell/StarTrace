@@ -1006,6 +1006,246 @@
         "title": "SpaceX Launches SES-12",
         "description": "SpaceX Falcon 9 launched SES-12 communications satellite.",
         "country": "USA"
+      },
+      {
+        "month": 6,
+        "day": 1,
+        "year": 1937,
+        "title": "Formation of Caltech Rocket Research Project",
+        "description": "Theodore von Kármán established the Caltech Rocket Research Project, the precursor to NASA's Jet Propulsion Laboratory (JPL).",
+        "country": "USA"
+      },
+      {
+        "month": 6,
+        "day": 2,
+        "year": 2003,
+        "title": "Launch of Mars Express",
+        "description": "The European Space Agency (ESA) launched Mars Express, its first mission to the Red Planet.",
+        "country": "ESA"
+      },
+      {
+        "month": 6,
+        "day": 3,
+        "year": 1959,
+        "title": "First Moon Relay of a Message",
+        "description": "Scientists used the Moon to relay a transmission of President Eisenhower's message from the USA to Canada.",
+        "country": "USA/Canada"
+      },
+      {
+        "month": 6,
+        "day": 4,
+        "year": 2010,
+        "title": "Maiden Flight of SpaceX Falcon 9",
+        "description": "SpaceX successfully launched the Falcon 9 rocket on its maiden flight from Cape Canaveral.",
+        "country": "USA"
+      },
+      {
+        "month": 6,
+        "day": 5,
+        "year": 2002,
+        "title": "Reactivation of Hubble's NICMOS",
+        "description": "After more than three years of inactivity, Hubble's Near Infrared Camera and Multi-Object Spectrometer (NICMOS) was reactivated.",
+        "country": "International"
+      },
+      {
+        "month": 6,
+        "day": 6,
+        "year": 2024,
+        "title": "Annular Solar Eclipse Observed",
+        "description": "An annular solar eclipse was visible across parts of the Americas, offering a spectacular 'ring of fire' effect.",
+        "country": "Global"
+      },
+      {
+        "month": 6,
+        "day": 7,
+        "year": 2013,
+        "title": "Discovery of Planet-Forming Disk",
+        "description": "Astronomers announced the discovery of a planet-forming disk around the young star Oph-IRS 48.",
+        "country": "Netherlands"
+      },
+      {
+        "month": 6,
+        "day": 8,
+        "year": 1625,
+        "title": "Birth of Giovanni Cassini",
+        "description": "Giovanni Cassini, notable for his work in astronomy and for whom the Cassini spacecraft was named, was born.",
+        "country": "Italy"
+      },
+      {
+        "month": 6,
+        "day": 9,
+        "year": 1993,
+        "title": "Publication of Einstein's Quantum Theory Analysis",
+        "description": "Albert Einstein published his analysis of Planck's quantum theory and its application to light.",
+        "country": "Germany"
+      },
+      {
+        "month": 6,
+        "day": 10,
+        "year": 2003,
+        "title": "Launch of NASA's Spirit Rover",
+        "description": "NASA launched the Spirit rover as part of its Mars Exploration Rover mission.",
+        "country": "USA"
+      },
+      {
+        "month": 6,
+        "day": 11,
+        "year": 2024,
+        "title": "Ignite Space 2024 Conference Begins",
+        "description": "The Ignite Space 2024 conference commenced in Leeds, focusing on commercial opportunities in the UK space industry.",
+        "country": "UK"
+      },
+      {
+        "month": 6,
+        "day": 12,
+        "year": 1967,
+        "title": "Launch of Venera 4",
+        "description": "The USSR launched Venera 4, a probe that became the first to directly analyze the atmosphere of another planet (Venus).",
+        "country": "USSR"
+      },
+      {
+        "month": 6,
+        "day": 13,
+        "year": 1967,
+        "title": "Thurgood Marshall Nominated to Supreme Court",
+        "description": "President Lyndon B. Johnson nominated Thurgood Marshall to become the first Black justice on the U.S. Supreme Court.",
+        "country": "USA"
+      },
+      {
+        "month": 6,
+        "day": 14,
+        "year": 1949,
+        "title": "First Monkey in Space",
+        "description": "Albert II became the first monkey to travel to space aboard a V-2 rocket.",
+        "country": "USA"
+      },
+      {
+        "month": 6,
+        "day": 15,
+        "year": 2024,
+        "title": "Instant Expert: Decoding the Cosmos Event",
+        "description": "Conway Hall in London hosted an event aimed at demystifying cosmic phenomena for the public.",
+        "country": "UK"
+      },
+      {
+        "month": 6,
+        "day": 16,
+        "year": 1963,
+        "title": "Valentina Tereshkova Becomes First Woman in Space",
+        "description": "Valentina Tereshkova flew aboard Vostok 6, becoming the first woman to travel into space.",
+        "country": "USSR"
+      },
+      {
+        "month": 6,
+        "day": 17,
+        "year": 1970,
+        "title": "Soviet Luna 17 Mission Launch",
+        "description": "The USSR launched Luna 17, which carried the Lunokhod 1 rover to the Moon.",
+        "country": "USSR"
+      },
+      {
+        "month": 6,
+        "day": 18,
+        "year": 1983,
+        "title": "Sally Ride Becomes First American Woman in Space",
+        "description": "Sally Ride flew aboard Space Shuttle Challenger on mission STS-7, becoming the first American woman in space.",
+        "country": "USA"
+      },
+      {
+        "month": 6,
+        "day": 19,
+        "year": 1961,
+        "title": "Kuwait Joins the United Nations",
+        "description": "Kuwait became the 111th member of the United Nations.",
+        "country": "Kuwait"
+      },
+      {
+        "month": 6,
+        "day": 20,
+        "year": 1990,
+        "title": "Hubble Space Telescope Sends First Images",
+        "description": "NASA's Hubble Space Telescope sent its first images back to Earth.",
+        "country": "USA"
+      },
+      {
+        "month": 6,
+        "day": 21,
+        "year": 2004,
+        "title": "SpaceShipOne's First Flight",
+        "description": "SpaceShipOne became the first privately funded spacecraft to achieve spaceflight.",
+        "country":"Russia/USA"
+      },
+      {
+        "month": 6,
+        "day": 22,
+        "year": 2024,
+        "title": "Full Strawberry Moon",
+        "description": "The Full Moon in June, known as the Strawberry Moon, reached its peak, offering a bright display in the night sky.",
+        "country": "Global"
+      },
+      {
+        "month": 6,
+        "day": 23,
+        "year": 2017,
+        "title": "Launch of Cartosat-2 Series Satellite",
+        "description": "ISRO launched the Cartosat-2 series satellite along with 30 co-passenger satellites aboard PSLV-C38.",
+        "country": "India"
+      },
+      {
+        "month": 6,
+        "day": 24,
+        "year": 2024,
+        "title": "Launch of SVOM Satellite",
+        "description": "China and France jointly launched the SVOM satellite to observe gamma-ray bursts and other high-energy cosmic events.",
+        "country": "China/France"
+      },
+      {
+        "month": 6,
+        "day": 25,
+        "year": 2024,
+        "title": "Chang'e-6 Returns with Lunar Samples",
+        "description": "China's Chang'e-6 mission returned to Earth with the first-ever samples collected from the Moon's far side.",
+        "country": "China"
+      },
+      {
+        "month": 6,
+        "day": 26,
+        "year": 2024,
+        "title": "India Space Congress 2024 Begins",
+        "description": "The India Space Congress 2024 commenced in New Delhi, focusing on global collaboration and innovation in the space sector.",
+        "country": "India"
+      },
+      {
+        "month": 6,
+        "day": 27,
+        "year": 2024,
+        "title": "June Bootids Meteor Shower Peaks",
+        "description": "The June Bootids meteor shower reached its peak, offering a display of meteors in the night sky.",
+        "country": "Global"
+      },
+      {
+        "month": 6,
+        "day": 28,
+        "year": 2024,
+        "title": "Conclusion of India Space Congress 2024",
+        "description": "The India Space Congress 2024 concluded, marking the end of discussions on advancing space technology and cooperation.",
+        "country": "India"
+      },
+      {
+        "month": 6,
+        "day": 29,
+        "year": 2024,
+        "title": "Moon Reaches Last Quarter Phase",
+        "description": "The Moon entered its last quarter phase, visible prominently in the predawn sky.",
+        "country": "Global"
+      },
+      {
+        "month": 6,
+        "day": 30,
+        "year": 2024,
+        "title": "Saturn Enters Retrograde Motion",
+        "description": "Saturn began its apparent retrograde motion, an optical illusion observed from Earth.",
+        "country": "Global"
       }
   ]
   
