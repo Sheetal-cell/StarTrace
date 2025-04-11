@@ -96,15 +96,11 @@ document.getElementById("downloadBtn").addEventListener("click", async () => {
   }
 });
 
-
 document.getElementById("shareBtn").addEventListener("click", () => {
-  const img = document.querySelector("#media img");
   const title = document.getElementById("title").textContent;
   const date = document.getElementById("dateText").textContent;
-  const url = img ? img.src : window.location.href;
+  const tweetText = `Check out NASA's Astronomy Picture of the Day for ${date}: "${title}" 🌌`;
+  const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=https://apod.nasa.gov/`;
 
-  const tweetText = `NASA Picture of the Day for ${date}: "${title}" 🚀\n\nCheck it out: ${url}`;
-  const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
-
-  window.open(twitterUrl, "_blank");
+  window.open(tweetUrl, "_blank");
 });
