@@ -70,17 +70,19 @@ dateInput.addEventListener("change", async () => {
   apodBox.classList.add("hidden");
   milestoneBox.classList.add("hidden");
 
+  // Parse selected date into day/month for milestone search
+  const [year, month, day] = selectedDate.split("-").map(Number);
+
   try {
     const response = await fetch(`/api/apod?date=${selectedDate}`);
-    
-    // Check if the response is ok
+
     if (!response.ok) {
       throw new Error("APOD not available for this date yet.");
     }
 
     const data = await response.json();
 
-    // Show APOD data
+    // Show APOD
     title.textContent = data.title;
     dateText.textContent = data.date;
     explanation.textContent = data.explanation;
@@ -91,10 +93,18 @@ dateInput.addEventListener("change", async () => {
 
     apodBox.classList.remove("hidden");
 
-    // Show milestones
-    const [year, month, day] = selectedDate.split("-").map(Number);
-    const todayMilestones = milestones.filter(m => m.month === month && m.day === day);
+  } catch (error) {
+    console.warn("Error fetching APOD:", error);
 
+    // Show user-friendly message in APOD box
+    apodBox.classList.remove("hidden");
+    title.textContent = "APOD Not Available Yet";
+    dateText.textContent = selectedDate;
+    media.innerHTML = `<p style="color: white;">The Astronomy Picture of the Day for this date isn't available yet. Please check back later!</p>`;
+    explanation.textContent = "";
+  } finally {
+    // Always check and display milestones
+    const todayMilestones = milestones.filter(m => m.month === month && m.day === day);
     if (todayMilestones.length > 0) {
       milestoneContent.innerHTML = todayMilestones.map(m => `
         <div class="milestone-entry">
@@ -105,16 +115,6 @@ dateInput.addEventListener("change", async () => {
       milestoneBox.classList.remove("hidden");
     }
 
-  } catch (error) {
-    console.warn("Error fetching APOD:", error);
-
-    // Show user-friendly message
-    apodBox.classList.remove("hidden");
-    title.textContent = "APOD Not Available Yet";
-    dateText.textContent = selectedDate;
-    media.innerHTML = `<p style="color: white;">The Astronomy Picture of the Day for today isn't available yet. Please check back later!</p>`;
-    explanation.textContent = "";
-  } finally {
     spinner.classList.add("hidden");
   }
 });
