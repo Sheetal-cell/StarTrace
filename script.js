@@ -8,6 +8,10 @@ const title = document.getElementById("title");
 const dateText = document.getElementById("dateText");
 const media = document.getElementById("media");
 const explanation = document.getElementById("explanation");
+// Restrict future dates
+const today = new Date().toISOString().split("T")[0];
+document.getElementById("dateInput").setAttribute("max", today);
+
 
 let milestones = [];
 
@@ -19,6 +23,14 @@ async function loadMilestones() {
     console.error("Failed to load milestone.json:", error);
   }
 }
+window.addEventListener('DOMContentLoaded', async () => {
+  const today = new Date().toISOString().split("T")[0];
+  document.getElementById("dateInput").setAttribute("max", today);
+  
+  await loadMilestones();
+  showTodayMilestone();
+});
+
 
 dateInput.addEventListener("change", async () => {
   const selectedDate = dateInput.value;
