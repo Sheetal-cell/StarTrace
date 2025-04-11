@@ -1,0 +1,251 @@
+[
+    {
+      "month": 1,
+      "day": 1,
+      "year": 2024,
+      "title": "XPoSat Satellite Launch",
+      "description": "India successfully launched the XPoSat satellite to study cosmic X-rays.",
+      "country": "India"
+    },
+    {
+      "month": 1,
+      "day": 2,
+      "year": 1959,
+      "title": "Luna 1 Launched",
+      "description": "The USSR launched Luna 1, the first spacecraft to reach the vicinity of the Moon.",
+      "country": "USSR"
+    },
+    {
+      "month": 1,
+      "day": 3,
+      "year": 2019,
+      "title": "Chang'e 4 Moon Landing",
+      "description": "China's Chang'e 4 became the first spacecraft to land on the far side of the Moon.",
+      "country": "China"
+    },
+    {
+      "month": 1,
+      "day": 4,
+      "year": 2004,
+      "title": "Spirit Rover Lands on Mars",
+      "description": "NASA's Spirit rover landed on Mars, beginning its exploration of the Martian surface.",
+      "country": "USA"
+    },
+    {
+      "month": 1,
+      "day": 5,
+      "year": 1972,
+      "title": "NASA Announces Shuttle Program",
+      "description": "President Nixon announced the development of NASA's Space Shuttle program.",
+      "country": "USA"
+    },
+    {
+      "month": 1,
+      "day": 6,
+      "year": 1966,
+      "title": "Luna 9 Launch",
+      "description": "The USSR launched Luna 9, which later became the first spacecraft to achieve a soft landing on the Moon.",
+      "country": "USSR"
+    },
+    {
+      "month": 1,
+      "day": 7,
+      "year": 1610,
+      "title": "Galileo Discovers Jupiter's Moons",
+      "description": "Galileo Galilei observed three of Jupiter's moons for the first time through his telescope.",
+      "country": "Italy"
+    },
+    {
+      "month": 1,
+      "day": 8,
+      "year": 2001,
+      "title": "INSAT-3C Launched",
+      "description": "India launched INSAT-3C to provide communication services across the Indian region.",
+      "country": "India"
+    },
+    {
+      "month": 1,
+      "day": 9,
+      "year": 1992,
+      "title": "First Discovery of Exoplanets",
+      "description": "Two planets were discovered orbiting the pulsar PSR B1257+12, marking the first confirmed detection of exoplanets.",
+      "country": "World"
+    },
+    {
+      "month": 1,
+      "day": 10,
+      "year": 1962,
+      "title": "First Satellite from India Tracked",
+      "description": "India tracked an American satellite for the first time, marking early involvement in global space activity.",
+      "country": "India"
+    },
+    {
+      "month": 1,
+      "day": 11,
+      "year": 2008,
+      "title": "PSLV-C10 Launch",
+      "description": "ISRO launched the PSLV-C10 carrying the Israeli TecSAR satellite.",
+      "country": "India"
+    },
+    {
+      "month": 1,
+      "day": 12,
+      "year": 2003,
+      "title": "INSAT-3A Launch",
+      "description": "ISRO launched INSAT-3A for telecommunications, television broadcasting, and weather forecasting.",
+      "country": "India"
+    },
+    {
+      "month": 1,
+      "day": 13,
+      "year": 1993,
+      "title": "INSAT-2B Launched",
+      "description": "India launched INSAT-2B, a multipurpose satellite for meteorology and telecommunications.",
+      "country": "India"
+    },
+    {
+      "month": 1,
+      "day": 14,
+      "year": 2005,
+      "title": "Huygens Lands on Titan",
+      "description": "ESA's Huygens probe landed on Saturn's moon Titan, transmitting data about its surface.",
+      "country": "ESA"
+    },
+    {
+      "month": 1,
+      "day": 15,
+      "year": 2006,
+      "title": "Stardust Returns to Earth",
+      "description": "NASA’s Stardust mission returned with dust samples from comet Wild 2.",
+      "country": "USA"
+    },
+    {
+      "month": 1,
+      "day": 16,
+      "year": 2003,
+      "title": "Final Launch of Space Shuttle Columbia",
+      "description": "Space Shuttle Columbia launched for its final mission STS-107, which ended in tragedy.",
+      "country": "USA"
+    },
+    {
+      "month": 1,
+      "day": 17,
+      "year": 1997,
+      "title": "ISRO PSLV-C1 Launch",
+      "description": "ISRO successfully launched PSLV-C1 carrying IRS-1D, improving India's Earth observation capabilities.",
+      "country": "India"
+    },
+    {
+      "month": 1,
+      "day": 18,
+      "year": 1986,
+      "title": "Launch of SPOT-1",
+      "description": "France launched SPOT-1, a satellite for Earth observation.",
+      "country": "France"
+    },
+    {
+      "month": 1,
+      "day": 19,
+      "year": 2006,
+      "title": "New Horizons Launch",
+      "description": "NASA launched New Horizons on a mission to study Pluto and the Kuiper Belt.",
+      "country": "USA"
+    },
+    {
+      "month": 1,
+      "day": 20,
+      "year": 1998,
+      "title": "India-US Space Agreement",
+      "description": "India and USA signed an agreement for cooperation in civil space activities.",
+      "country": "India/USA"
+    },
+    {
+      "month": 1,
+      "day": 21,
+      "year": 1960,
+      "title": "Little Joe 1B Launch",
+      "description": "NASA launched Little Joe 1B to test the Mercury capsule escape system.",
+      "country": "USA"
+    },
+    {
+      "month": 1,
+      "day": 22,
+      "year": 2002,
+      "title": "INSAT-3C Launch",
+      "description": "ISRO launched INSAT-3C for improved telecommunications across India.",
+      "country": "India"
+    },
+    {
+      "month": 1,
+      "day": 23,
+      "year": 2000,
+      "title": "ISRO PSLV-C2 Launch",
+      "description": "India launched PSLV-C2 carrying IRS-P4 and two foreign satellites, highlighting global collaboration.",
+      "country": "India"
+    },
+    {
+      "month": 1,
+      "day": 24,
+      "year": 1986,
+      "title": "Voyager 2 Flyby of Uranus",
+      "description": "NASA's Voyager 2 made its closest approach to Uranus, sending back the first close-up images.",
+      "country": "USA"
+    },
+    {
+      "month": 1,
+      "day": 25,
+      "year": 2007,
+      "title": "India Launches Cartosat-2",
+      "description": "ISRO launched Cartosat-2 for high-resolution Earth observation.",
+      "country": "India"
+    },
+    {
+      "month": 1,
+      "day": 26,
+      "year": 2001,
+      "title": "Republic Day Honours Indian Space Scientists",
+      "description": "Notable space scientists awarded Padma honors for contributions to ISRO.",
+      "country": "India"
+    },
+    {
+      "month": 1,
+      "day": 27,
+      "year": 1967,
+      "title": "Apollo 1 Tragedy",
+      "description": "Fire during a pre-launch test killed all three Apollo 1 astronauts.",
+      "country": "USA"
+    },
+    {
+      "month": 1,
+      "day": 28,
+      "year": 1986,
+      "title": "Challenger Disaster",
+      "description": "NASA's Space Shuttle Challenger broke apart shortly after launch, killing all seven astronauts.",
+      "country": "USA"
+    },
+    {
+      "month": 1,
+      "day": 29,
+      "year": 1989,
+      "title": "ISRO Launches SROSS-A",
+      "description": "India launched the first satellite in the SROSS series to study X-rays and gamma rays.",
+      "country": "India"
+    },
+    {
+      "month": 1,
+      "day": 30,
+      "year": 2004,
+      "title": "Opportunity Rover Lands on Mars",
+      "description": "NASA's Opportunity rover successfully landed on Mars to continue the exploration started by Spirit.",
+      "country": "USA"
+    },
+    {
+      "month": 1,
+      "day": 31,
+      "year": 2018,
+      "title": "Super Blue Blood Moon",
+      "description": "A rare celestial event combining a supermoon, blue moon, and lunar eclipse.",
+      "country": "Global"
+    }
+  ]
+  

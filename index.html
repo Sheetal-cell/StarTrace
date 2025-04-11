@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NASA APOD & Space Milestones</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🌌 NASA Astronomy Picture of the Day</h1>
+  <input type="date" id="dateInput" />
+
+  <div id="spinner" class="hidden">🚀 Loading...</div>
+
+  <div id="apodBox" class="hidden">
+    <h2 id="title"></h2>
+    <p id="dateText"></p>
+    <div id="media"></div>
+    <p id="explanation"></p>
+  </div>
+
+  <div id="milestone" class="milestone-box">
+    <h3>🚀 On This Day in Space History</h3>
+    <div id="milestoneContent"></div>
+  </div>
+
+  <!-- Config for API key (not pushed to GitHub) -->
+  <script src="config.js"></script>
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
