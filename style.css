@@ -265,3 +265,183 @@ button:hover {
   #explanation { font-size: 1.05rem; }
   #milestoneContent div { font-size: 1rem; }
 }
+/* === Night Sky & Animated Stars === */
+.night-sky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(StarTrace-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: gives a nice parallax feel */
+  min-height: 100vh; /* Ensures body covers full viewport height */
+  overflow: hidden;
+  z-index: -10;
+}
+
+/* === Massive Star Field === */
+/* Dense Stars – Twinkling without shifting position */
+.stars,
+.stars::before,
+.stars::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow:
+    20px 30px white, 40px 120px white, 60px 200px white, 80px 80px white,
+    100px 300px white, 120px 50px white, 140px 90px white, 160px 210px white,
+    180px 130px white, 200px 60px white, 220px 300px white, 240px 180px white,
+    260px 100px white, 280px 230px white, 300px 160px white, 320px 120px white,
+    340px 200px white, 360px 260px white, 380px 170px white, 400px 190px white,
+    420px 100px white, 440px 300px white, 460px 140px white, 480px 250px white,
+    500px 90px white, 520px 220px white, 540px 180px white, 560px 300px white,
+    580px 130px white, 600px 110px white, 620px 250px white, 640px 200px white,
+    660px 300px white, 680px 190px white, 700px 120px white, 720px 260px white,
+    740px 90px white, 760px 180px white, 780px 270px white, 800px 150px white,
+    820px 230px white, 840px 300px white, 860px 120px white, 880px 260px white,
+    900px 160px white, 920px 240px white, 940px 100px white, 960px 290px white,
+    980px 180px white, 1000px 220px white, 1020px 200px white, 1040px 130px white;
+  animation: twinkle 4s ease-in-out infinite alternate;
+}
+
+.stars::before {
+  left: -150px;
+  top: 100px;
+  animation-delay: 1.5s;
+}
+
+.stars::after {
+  left: 100px;
+  top: -120px;
+  animation-delay: 2.8s;
+}
+/* === Mid Section Twinkling Stars === */
+.stars-mid {
+  position: absolute;
+  top: 30%; /* middle portion */
+  left: 40;
+  width: 100%;
+  height: 40%; /* center band */
+  pointer-events: none;
+  z-index: -5;
+}
+
+.stars-mid::before,
+.stars-mid::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow:
+  3vw 32vh white, 6vw 35vh white, 9vw 38vh white, 12vw 34vh white,
+  15vw 36vh white, 18vw 33vh white, 21vw 39vh white, 24vw 31vh white,
+  27vw 35vh white, 30vw 37vh white, 33vw 32vh white, 36vw 38vh white,
+  39vw 34vh white, 42vw 36vh white, 45vw 33vh white, 48vw 39vh white,
+  51vw 31vh white, 54vw 35vh white, 57vw 37vh white, 60vw 32vh white,
+  63vw 38vh white, 66vw 34vh white, 69vw 36vh white, 72vw 33vh white,
+  75vw 39vh white, 78vw 31vh white, 81vw 35vh white, 84vw 37vh white,
+  87vw 32vh white, 90vw 38vh white, 93vw 34vh white, 96vw 36vh white,
+  2vw 42vh white, 5vw 45vh white, 8vw 48vh white, 11vw 44vh white,
+  14vw 46vh white, 17vw 43vh white, 20vw 49vh white, 23vw 41vh white,
+  26vw 45vh white, 29vw 47vh white, 32vw 42vh white, 35vw 48vh white,
+  38vw 44vh white, 41vw 46vh white, 44vw 43vh white, 47vw 49vh white,
+  50vw 41vh white, 53vw 45vh white, 56vw 47vh white, 59vw 42vh white,
+  62vw 48vh white, 65vw 44vh white, 68vw 46vh white, 71vw 43vh white,
+  74vw 49vh white, 77vw 41vh white, 80vw 45vh white, 83vw 47vh white,
+  86vw 42vh white, 89vw 48vh white, 92vw 44vh white, 95vw 46vh white,
+  1vw 38vh white, 4vw 39vh white, 7vw 40vh white, 10vw 41vh white,
+  13vw 42vh white, 16vw 43vh white, 19vw 44vh white, 22vw 45vh white,
+  25vw 46vh white, 28vw 47vh white, 31vw 48vh white, 34vw 49vh white,
+  37vw 50vh white, 40vw 36vh white, 43vw 37vh white, 46vw 38vh white,
+  49vw 39vh white, 52vw 40vh white, 55vw 41vh white, 58vw 42vh white,
+  61vw 43vh white, 64vw 44vh white, 67vw 45vh white, 70vw 46vh white,
+  73vw 47vh white, 76vw 48vh white, 79vw 49vh white, 82vw 50vh white,
+  85vw 34vh white, 88vw 36vh white, 91vw 38vh white, 94vw 40vh white,
+  97vw 42vh white, 99vw 44vh white;
+  animation: twinkle 3s ease-in-out infinite alternate;
+}
+
+.stars-mid::after {
+  left: 50px;
+  top: 30px;
+  animation-delay: 2s;
+}
+
+
+/* Twinkle only (no shaking or translation!) */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+ /* ==== Comet Animation ==== */
+ .comet {
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  width: 150px;
+  height: 2px;
+  background: linear-gradient(90deg, #fff, rgba(255,255,255,0));
+  box-shadow: 0 0 15px #fff;
+  transform: rotate(45deg);
+  animation: cometMove 12s linear infinite;
+  z-index: -5;
+}
+
+@keyframes cometMove {
+  0% { top: -50px; left: -100px; opacity: 0; }
+  10% { opacity: 1; }
+  100% { top: 100vh; left: 100vw; opacity: 0; }
+}
+
+/* ==== Shooting Stars ==== */
+.shooting-stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -5;
+}
+
+.shooting-star {
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, white, transparent);
+  opacity: 0;
+  animation: shoot 5s ease-in-out infinite;
+}
+
+.shooting-star:nth-child(1) {
+  top: 20%;
+  left: 90%;
+  animation-delay: 1s;
+}
+
+.shooting-star:nth-child(2) {
+  top: 50%;
+  left: 70%;
+  animation-delay: 3s;
+}
+
+.shooting-star:nth-child(3) {
+  top: 70%;
+  left: 30%;
+  animation-delay: 5s;
+}
+
+@keyframes shoot {
+  0% { transform: translate(0, 0); opacity: 0; }
+  10% { opacity: 1; }
+  100% { transform: translate(-100vw, 100vh); opacity: 0; }
+}
+

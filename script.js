@@ -100,3 +100,18 @@ document.getElementById("shareBtn").addEventListener("click", () => {
 
   window.open(tweetUrl, "_blank");
 });
+const container = document.getElementById("starsContainer");
+const stars = 100;
+
+for (let i = 0; i < stars; i++) {
+  const star = document.createElement("div");
+  star.classList.add("star");
+
+  // Random position centered around the middle 60% area
+  star.style.top = `${30 + Math.random() * 40}%`;
+  star.style.left = `${20 + Math.random() * 60}%`;
+
+  // Random animation delay
+  star.style.animationDelay = `${Math.random() * 3}s`;
+
+  container.appendChild(star);}
