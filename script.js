@@ -8,13 +8,20 @@ const title = document.getElementById("title");
 const dateText = document.getElementById("dateText");
 const media = document.getElementById("media");
 const explanation = document.getElementById("explanation");
-// Restrict future dates
-const today = new Date().toISOString().split("T")[0];
-document.getElementById("dateInput").setAttribute("max", today);
 
+// Get accurate local today’s date
+const today = new Date();
+const year = today.getFullYear();
+const month = String(today.getMonth() + 1).padStart(2, '0');
+const day = String(today.getDate()).padStart(2, '0');
+const localToday = `${year}-${month}-${day}`;
+
+// Restrict future dates in input
+dateInput.setAttribute("max", localToday);
 
 let milestones = [];
 
+// Load milestones from JSON
 async function loadMilestones() {
   try {
     const res = await fetch('milestones.json');
@@ -23,15 +30,29 @@ async function loadMilestones() {
     console.error("Failed to load milestone.json:", error);
   }
 }
+
+// Show today’s milestones on page load
 window.addEventListener('DOMContentLoaded', async () => {
-  const today = new Date().toISOString().split("T")[0];
-  document.getElementById("dateInput").setAttribute("max", today);
-  
   await loadMilestones();
-  showTodayMilestone();
+
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = today.getMonth() + 1;
+  const day = today.getDate();
+  const todayMilestones = milestones.filter(m => m.month === month && m.day === day);
+
+  if (todayMilestones.length > 0) {
+    milestoneContent.innerHTML = todayMilestones.map(m => `
+      <div class="milestone-entry">
+        <strong>${m.year} — ${m.title}</strong><br />
+        <em>${m.country}</em>: ${m.description}
+      </div>
+    `).join("");
+    milestoneBox.classList.remove("hidden");
+  }
 });
 
-
+// Handle date selection and APOD fetch
 dateInput.addEventListener("change", async () => {
   const selectedDate = dateInput.value;
   if (!selectedDate) return;
@@ -41,7 +62,6 @@ dateInput.addEventListener("change", async () => {
   milestoneBox.classList.add("hidden");
 
   try {
-    // Fetch NASA APOD
     const response = await fetch(`/api/apod?date=${selectedDate}`);
     const data = await response.json();
 
@@ -55,12 +75,11 @@ dateInput.addEventListener("change", async () => {
 
     apodBox.classList.remove("hidden");
 
-    // Display Milestones
     const [year, month, day] = selectedDate.split("-").map(Number);
-    const todayMilestones = milestones.filter(m => m.month === month && m.day === day);
+    const selectedMilestones = milestones.filter(m => m.month === month && m.day === day);
 
-    if (todayMilestones.length > 0) {
-      milestoneContent.innerHTML = todayMilestones.map(m => `
+    if (selectedMilestones.length > 0) {
+      milestoneContent.innerHTML = selectedMilestones.map(m => `
         <div class="milestone-entry">
           <strong>${m.year} — ${m.title}</strong><br />
           <em>${m.country}</em>: ${m.description}
@@ -76,33 +95,30 @@ dateInput.addEventListener("change", async () => {
   }
 });
 
-// Initial milestone load
-loadMilestones();
-
-document.getElementById("downloadBtn").addEventListener("click", async () => {
+// Download Image
+document.getElementById("downloadBtn").addEventListener("click", () => {
   const img = document.querySelector("#media img");
   if (!img) return alert("Only images can be downloaded.");
 
-  const imageURL = img.src;
   const a = document.createElement("a");
-  a.href = imageURL;
+  a.href = img.src;
   a.download = "NASA_APOD.jpg";
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
 });
 
+// Share Button Logic
 document.getElementById("shareBtn").addEventListener("click", () => {
-  const title = document.getElementById("title").textContent;
-  const date = document.getElementById("dateText").textContent;
-  const tweetText = `Check out NASA's Astronomy Picture of the Day for ${date}: "${title}" 🌌`;
+  const titleText = title.textContent;
+  const date = dateText.textContent;
+  const tweetText = `Check out NASA's Astronomy Picture of the Day for ${date}: "${titleText}" 🌌`;
   const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=https://apod.nasa.gov/`;
-
   window.open(tweetUrl, "_blank");
 });
 
+// Shooting stars animation
 const shootingStarContainer = document.getElementById("shootingStarContainer");
-
 for (let i = 0; i < 10; i++) {
   const star = document.createElement("div");
   star.classList.add("shooting-star");
@@ -112,8 +128,9 @@ for (let i = 0; i < 10; i++) {
   star.style.animationDuration = `${2 + Math.random() * 2}s`;
   shootingStarContainer.appendChild(star);
 }
-const starContainer = document.getElementById("starContainer");
 
+// Glowing stars animation
+const starContainer = document.getElementById("starContainer");
 for (let i = 0; i < 75; i++) {
   const glowStar = document.createElement("div");
   glowStar.classList.add("glowing-star");
@@ -122,8 +139,6 @@ for (let i = 0; i < 75; i++) {
   glowStar.style.animationDelay = `${Math.random() * 5}s`;
   starContainer.appendChild(glowStar);
 }
-window.scrollTo({
-  top: 0,
-  behavior: 'smooth'
-});
 
+// Scroll to top on load
+window.scrollTo({ top: 0, behavior: 'smooth' });
