@@ -478,6 +478,534 @@
         "title": "India Launches IRNSS-1F",
         "description": "ISRO launched IRNSS-1F, part of the Indian Regional Navigation Satellite System (IRNSS).",
         "country": "India"
+      },
+      {
+        "month": 3,
+        "day": 1,
+        "year": 1966,
+        "title": "Venera 3 Crash-Lands on Venus",
+        "description": "The Soviet Union’s Venera 3 becomes the first human-made object to impact another planet.",
+        "country": "USSR"
+      },
+      {
+        "month": 3,
+        "day": 2,
+        "year": 1972,
+        "title": "Launch of Pioneer 10",
+        "description": "NASA launched Pioneer 10, the first spacecraft to travel through the asteroid belt and make direct observations of Jupiter.",
+        "country": "USA"
+      },
+      {
+        "month": 3,
+        "day": 3,
+        "year": 2005,
+        "title": "ISRO PSLV-C5 Launch",
+        "description": "India launched PSLV-C5 carrying the Cartosat-1 and HAMSAT satellites.",
+        "country": "India"
+      },
+      {
+        "month": 3,
+        "day": 4,
+        "year": 2006,
+        "title": "MRO Enters Mars Orbit",
+        "description": "NASA’s Mars Reconnaissance Orbiter entered orbit around Mars to begin its study of the red planet.",
+        "country": "USA"
+      },
+      {
+        "month": 3,
+        "day": 5,
+        "year": 2013,
+        "title": "ISRO's Indo-French SARAL Mission",
+        "description": "India and France jointly launched the SARAL satellite for oceanographic studies.",
+        "country": "India/France"
+      },
+      {
+        "month": 3,
+        "day": 7,
+        "year": 2009,
+        "title": "Launch of Kepler Telescope",
+        "description": "NASA launched the Kepler Space Telescope to discover Earth-like planets orbiting other stars.",
+        "country": "USA"
+      },
+      {
+        "month": 3,
+        "day": 10,
+        "year": 1970,
+        "title": "INSAT Program Announced",
+        "description": "India formally announced the creation of the Indian National Satellite System (INSAT).",
+        "country": "India"
+      },
+      {
+        "month": 3,
+        "day": 13,
+        "year": 1986,
+        "title": "Giotto Flyby of Halley’s Comet",
+        "description": "ESA's Giotto spacecraft makes its closest approach to Halley’s Comet.",
+        "country": "ESA"
+      },
+      {
+        "month": 3,
+        "day": 15,
+        "year": 1962,
+        "title": "First Indian Rocket Test",
+        "description": "India conducted one of its earliest rocket tests from Thumba Equatorial Rocket Launching Station.",
+        "country": "India"
+      },
+      {
+        "month": 3,
+        "day": 17,
+        "year": 2011,
+        "title": "MESSENGER Enters Mercury Orbit",
+        "description": "NASA's MESSENGER became the first spacecraft to orbit Mercury.",
+        "country": "USA"
+      },
+      {
+        "month": 3,
+        "day": 19,
+        "year": 2001,
+        "title": "Mir Space Station Deorbited",
+        "description": "Russia deorbited the Mir space station after 15 years in orbit.",
+        "country": "Russia"
+      },
+      {
+        "month": 3,
+        "day": 22,
+        "year": 2000,
+        "title": "INSAT-3B Launch",
+        "description": "ISRO launched INSAT-3B for telecommunications and internet services.",
+        "country": "India"
+      },
+      {
+        "month": 3,
+        "day": 23,
+        "year": 2001,
+        "title": "ISRO’s PSLV-C3 Mission",
+        "description": "India launched PSLV-C3 carrying the TES and two foreign satellites.",
+        "country": "India"
+      },
+      {
+        "month": 3,
+        "day": 24,
+        "year": 1999,
+        "title": "Discovery of Neptune's Largest Ring",
+        "description": "Astronomers discovered a massive ring system around Neptune using ground-based telescopes.",
+        "country": "World"
+      },
+      {
+        "month": 3,
+        "day": 27,
+        "year": 2019,
+        "title": "Mission Shakti",
+        "description": "India successfully tested its first anti-satellite missile, demonstrating space defense capability.",
+        "country": "India"
+      },
+      {
+        "month": 3,
+        "day": 28,
+        "year": 2006,
+        "title": "ISRO Launches Cartosat-1",
+        "description": "India launched Cartosat-1 for high-resolution Earth observation.",
+        "country": "India"
+      },
+      {
+        "month": 3,
+        "day": 31,
+        "year": 2005,
+        "title": "Mangalyaan Project Approved",
+        "description": "India approved its first interplanetary mission to Mars, later named Mangalyaan.",
+        "country": "India"
+      },
+      {
+        "month": 4,
+        "day": 1,
+        "year": 1960,
+        "title": "First Weather Satellite Launched",
+        "description": "NASA launched TIROS-1, the first successful weather satellite.",
+        "country": "USA"
+      },
+      {
+        "month": 4,
+        "day": 2,
+        "year": 1984,
+        "title": "Rakesh Sharma Goes to Space",
+        "description": "Rakesh Sharma became the first Indian to travel to space aboard Soyuz T-11.",
+        "country": "India"
+      },
+      {
+        "month": 4,
+        "day": 4,
+        "year": 2001,
+        "title": "Mars Odyssey Launched",
+        "description": "NASA launched Mars Odyssey to map the Martian surface and find signs of water.",
+        "country": "USA"
+      },
+      {
+        "month": 4,
+        "day": 7,
+        "year": 2001,
+        "title": "ISRO PSLV-C3 Launch",
+        "description": "India launched PSLV-C3 carrying three satellites including TES and BIRD.",
+        "country": "India"
+      },
+      {
+        "month": 4,
+        "day": 9,
+        "year": 1959,
+        "title": "NASA Announces Mercury 7 Astronauts",
+        "description": "NASA introduced the original seven astronauts for the Mercury program.",
+        "country": "USA"
+      },
+      {
+        "month": 4,
+        "day": 11,
+        "year": 1970,
+        "title": "Apollo 13 Launches",
+        "description": "NASA launched Apollo 13, which later faced a critical failure en route to the Moon.",
+        "country": "USA"
+      },
+      {
+        "month": 4,
+        "day": 12,
+        "year": 1961,
+        "title": "Yuri Gagarin's Historic Flight",
+        "description": "Yuri Gagarin became the first human in space aboard Vostok 1.",
+        "country": "USSR"
+      },
+      {
+        "month": 4,
+        "day": 12,
+        "year": 1981,
+        "title": "First Space Shuttle Flight",
+        "description": "NASA launched the first reusable Space Shuttle, Columbia (STS-1).",
+        "country": "USA"
+      },
+      {
+        "month": 4,
+        "day": 14,
+        "year": 2008,
+        "title": "Cartosat-2A and IMS-1 Launched",
+        "description": "ISRO launched Cartosat-2A and IMS-1 along with eight foreign nanosatellites.",
+        "country": "India"
+      },
+      {
+        "month": 4,
+        "day": 17,
+        "year": 1970,
+        "title": "Apollo 13 Returns Safely",
+        "description": "Apollo 13 splashed down safely after surviving a near-disaster in space.",
+        "country": "USA"
+      },
+      {
+        "month": 4,
+        "day": 19,
+        "year": 1971,
+        "title": "Salyut 1 Launched",
+        "description": "The Soviet Union launched the first space station, Salyut 1.",
+        "country": "USSR"
+      },
+      {
+        "month": 4,
+        "day": 20,
+        "year": 2009,
+        "title": "RISAT-2 Launch",
+        "description": "ISRO launched RISAT-2, India’s first radar imaging satellite for all-weather surveillance.",
+        "country": "India"
+      },
+      {
+        "month": 4,
+        "day": 22,
+        "year": 2009,
+        "title": "ISRO PSLV-C12 Launch",
+        "description": "India launched PSLV-C12 carrying RISAT-2 and ANUSAT.",
+        "country": "India"
+      },
+      {
+        "month": 4,
+        "day": 24,
+        "year": 1990,
+        "title": "Hubble Space Telescope Launched",
+        "description": "NASA launched the Hubble Space Telescope aboard Space Shuttle Discovery.",
+        "country": "USA"
+      },
+      {
+        "month": 4,
+        "day": 26,
+        "year": 1962,
+        "title": "Ariane Launch System Initiated",
+        "description": "The European Space Agency initiated development of the Ariane launch vehicle family.",
+        "country": "ESA"
+      },
+      {
+        "month": 4,
+        "day": 28,
+        "year": 2008,
+        "title": "ISRO Launches Cartosat-2A",
+        "description": "India launched Cartosat-2A, a high-resolution remote sensing satellite.",
+        "country": "India"
+      },
+      {
+        "month": 4,
+        "day": 29,
+        "year": 2001,
+        "title": "Dennis Tito Becomes First Space Tourist",
+        "description": "American businessman Dennis Tito flew to space aboard a Russian Soyuz mission.",
+        "country": "Russia/USA"
+      },
+      {
+        "month": 4,
+        "day": 30,
+        "year": 2007,
+        "title": "Cartosat-2 Launched",
+        "description": "India launched Cartosat-2, enhancing its Earth observation capabilities.",
+        "country": "India"
+      },
+      {
+        "month": 5,
+        "day": 1,
+        "year": 2009,
+        "title": "Chandrayaan-1's Moon Impact Probe Discovery",
+        "description": "India's Chandrayaan-1 confirmed the presence of magnesium, aluminum, and silicon on the Moon.",
+        "country": "India"
+      },
+      {
+        "month": 5,
+        "day": 2,
+        "year": 1965,
+        "title": "Luna 5 Launch",
+        "description": "The USSR launched Luna 5 in an attempt to achieve a soft landing on the Moon.",
+        "country": "USSR"
+      },
+      {
+        "month": 5,
+        "day": 3,
+        "year": 2024,
+        "title": "Chang’e-6 Lunar Mission Launch",
+        "description": "China launched the Chang’e-6 mission to collect samples from the Moon's far side.",
+        "country": "China"
+      },
+      {
+        "month": 5,
+        "day": 4,
+        "year": 1989,
+        "title": "Magellan Mission Launch",
+        "description": "NASA launched the Magellan spacecraft to map the surface of Venus using radar.",
+        "country": "USA"
+      },
+      {
+        "month": 5,
+        "day": 5,
+        "year": 1961,
+        "title": "Alan Shepard Flies Freedom 7",
+        "description": "Alan Shepard became the first American in space aboard Freedom 7.",
+        "country": "USA"
+      },
+      {
+        "month": 5,
+        "day": 6,
+        "year": 1998,
+        "title": "ISRO Launches GSAT-2",
+        "description": "India launched GSAT-2, an experimental communication satellite.",
+        "country": "India"
+      },
+      {
+        "month": 5,
+        "day": 7,
+        "year": 1992,
+        "title": "Endeavour’s First Flight",
+        "description": "The space shuttle Endeavour launched on its maiden voyage, STS-49.",
+        "country": "USA"
+      },
+      {
+        "month": 5,
+        "day": 8,
+        "year": 1962,
+        "title": "Ariel 1 Launch",
+        "description": "The first British satellite, Ariel 1, was launched into orbit.",
+        "country": "UK/USA"
+      },
+      {
+        "month": 5,
+        "day": 9,
+        "year": 2003,
+        "title": "Hayabusa Launched",
+        "description": "Japan launched Hayabusa to bring back samples from asteroid Itokawa.",
+        "country": "Japan"
+      },
+      {
+        "month": 5,
+        "day": 10,
+        "year": 1967,
+        "title": "Lunar Orbiter 4 Launch",
+        "description": "NASA launched Lunar Orbiter 4 to photograph the Moon's surface for Apollo landing site selection.",
+        "country": "USA"
+      },
+      {
+        "month": 5,
+        "day": 11,
+        "year": 2009,
+        "title": "STS-125 Launch",
+        "description": "NASA launched the final Hubble servicing mission via space shuttle Atlantis.",
+        "country": "USA"
+      },
+      {
+        "month": 5,
+        "day": 12,
+        "year": 2000,
+        "title": "India Launches GSAT-1",
+        "description": "GSAT-1 was India’s first experimental geo-stationary satellite for digital audio broadcasting.",
+        "country": "India"
+      },
+      {
+        "month": 5,
+        "day": 13,
+        "year": 1960,
+        "title": "Discoverer 13 Recovery",
+        "description": "First successful recovery of a capsule from orbit by the Discoverer program.",
+        "country": "USA"
+      },
+      {
+        "month": 5,
+        "day": 14,
+        "year": 1973,
+        "title": "Skylab Launch",
+        "description": "NASA launched Skylab, the United States' first space station.",
+        "country": "USA"
+      },
+      {
+        "month": 5,
+        "day": 15,
+        "year": 1958,
+        "title": "Sputnik 3 Launch",
+        "description": "The USSR launched Sputnik 3 to study Earth's upper atmosphere and cosmic rays.",
+        "country": "USSR"
+      },
+      {
+        "month": 5,
+        "day": 16,
+        "year": 1969,
+        "title": "Venera 5 Reaches Venus",
+        "description": "USSR’s Venera 5 transmitted data from Venus's atmosphere.",
+        "country": "USSR"
+      },
+      {
+        "month": 5,
+        "day": 17,
+        "year": 1969,
+        "title": "Venera 6 Reaches Venus",
+        "description": "Venera 6 followed Venera 5 with similar objectives on Venus.",
+        "country": "USSR"
+      },
+      {
+        "month": 5,
+        "day": 18,
+        "year": 1991,
+        "title": "Helen Sharman Flies to Mir",
+        "description": "First Briton in space, Helen Sharman flew to the Mir Space Station.",
+        "country": "UK/USSR"
+      },
+      {
+        "month": 5,
+        "day": 19,
+        "year": 2009,
+        "title": "ISRO Launches RISAT-2",
+        "description": "India launched RISAT-2 for all-weather remote sensing using radar.",
+        "country": "India"
+      },
+      {
+        "month": 5,
+        "day": 20,
+        "year": 2010,
+        "title": "ISRO Launches Cartosat-2B",
+        "description": "High-resolution Earth observation satellite launched by India.",
+        "country": "India"
+      },
+      {
+        "month": 5,
+        "day": 21,
+        "year": 1995,
+        "title": "Spektr Module Launched",
+        "description": "Russia launched the Spektr science module to Mir.",
+        "country": "Russia"
+      },
+      {
+        "month": 5,
+        "day": 22,
+        "year": 1969,
+        "title": "Apollo 10 Orbits Moon",
+        "description": "NASA's Apollo 10 lunar module orbited the Moon as a rehearsal for Apollo 11.",
+        "country": "USA"
+      },
+      {
+        "month": 5,
+        "day": 23,
+        "year": 2008,
+        "title": "Phoenix Mars Lander Reaches Mars",
+        "description": "NASA’s Phoenix successfully landed on Mars's polar region.",
+        "country": "USA"
+      },
+      {
+        "month": 5,
+        "day": 24,
+        "year": 1962,
+        "title": "Aurora 7 Launch",
+        "description": "NASA launched Scott Carpenter aboard Aurora 7 for America’s second manned orbital flight.",
+        "country": "USA"
+      },
+      {
+        "month": 5,
+        "day": 25,
+        "year": 2009,
+        "title": "Herschel and Planck Start Operations",
+        "description": "ESA’s Herschel Space Observatory and Planck telescope began operations to study cosmic radiation.",
+        "country": "ESA"
+      },
+      {
+        "month": 5,
+        "day": 26,
+        "year": 1999,
+        "title": "STS-96 Launch",
+        "description": "Space Shuttle Discovery launched and became the first shuttle to dock with the ISS.",
+        "country": "USA"
+      },
+      {
+        "month": 5,
+        "day": 27,
+        "year": 1972,
+        "title": "Mars 2 Orbiter Reaches Mars",
+        "description": "USSR’s Mars 2 became the first spacecraft to reach Mars’s surface, though crash-landed.",
+        "country": "USSR"
+      },
+      {
+        "month": 5,
+        "day": 28,
+        "year": 2003,
+        "title": "Beagle 2 Launched",
+        "description": "The British Beagle 2 Mars lander was launched on ESA’s Mars Express.",
+        "country": "UK/ESA"
+      },
+      {
+        "month": 5,
+        "day": 29,
+        "year": 1999,
+        "title": "Chandrayaan-1 Mission Approval",
+        "description": "ISRO approved India’s first lunar mission, Chandrayaan-1.",
+        "country": "India"
+      },
+      {
+        "month": 5,
+        "day": 30,
+        "year": 2015,
+        "title": "India's GSAT-6A Launched",
+        "description": "ISRO launched GSAT-6A for mobile communication.",
+        "country": "India"
+      },
+      {
+        "month": 5,
+        "day": 31,
+        "year": 2018,
+        "title": "SpaceX Launches SES-12",
+        "description": "SpaceX Falcon 9 launched SES-12 communications satellite.",
+        "country": "USA"
       }
   ]
   
