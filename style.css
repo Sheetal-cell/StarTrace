@@ -209,4 +209,22 @@ body {
   .apod-actions button:hover {
     background-color: #333;
   }
+  /* Footer styling */
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100%;
+    top:2px;
+  }
   
+  /* Responsive footer */
+  @media screen and (max-width: 480px) {
+    .footer {
+      font-size: 0.9rem;
+      padding: 12px 5px;
+    }
+  }  
