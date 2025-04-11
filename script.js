@@ -66,3 +66,27 @@ dateInput.addEventListener("change", async () => {
 
 // Initial milestone load
 loadMilestones();
+
+document.getElementById("downloadBtn").addEventListener("click", async () => {
+  const img = document.querySelector("#media img");
+  if (!img) return alert("Only images can be downloaded.");
+
+  const imageURL = img.src;
+  const a = document.createElement("a");
+  a.href = imageURL;
+  a.download = "NASA_APOD.jpg";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+});
+document.getElementById("shareBtn").addEventListener("click", () => {
+  const img = document.querySelector("#media img");
+  const title = document.getElementById("title").textContent;
+  const date = document.getElementById("dateText").textContent;
+  const url = img ? img.src : window.location.href;
+
+  const tweetText = `NASA Picture of the Day for ${date}: "${title}" 🚀\n\nCheck it out: ${url}`;
+  const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
+
+  window.open(twitterUrl, "_blank");
+});

@@ -192,4 +192,21 @@ body {
       font-size: 1rem;
     }
   }
+  .apod-actions {
+    margin-top: 15px;
+  }
+  
+  .apod-actions button {
+    padding: 8px 14px;
+    margin-right: 10px;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .apod-actions button:hover {
+    background-color: #333;
+  }
   
