@@ -67,23 +67,35 @@ dateInput.addEventListener("change", async () => {
 // Initial milestone load
 loadMilestones();
 
-document.getElementById("downloadBtn").addEventListener("click", () => {
+document.getElementById("downloadBtn").addEventListener("click", async () => {
   const img = document.querySelector("#media img");
+
   if (!img) {
     alert("No image available to download.");
     return;
   }
 
   const imageUrl = img.src;
-  const imageName = `NASA_APOD_${document.getElementById("dateText").textContent}.jpg`;
+  const imageType = imageUrl.endsWith(".png") ? "png" : "jpg";
+  const imageName = `NASA_APOD_${document.getElementById("dateText").textContent}.${imageType}`;
 
-  const a = document.createElement("a");
-  a.href = imageUrl;
-  a.download = imageName;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
+  try {
+    const response = await fetch(imageUrl);
+    const blob = await response.blob();
+
+    const downloadLink = document.createElement("a");
+    downloadLink.href = URL.createObjectURL(blob);
+    downloadLink.download = imageName;
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+    URL.revokeObjectURL(downloadLink.href);
+  } catch (error) {
+    console.error("Image download failed:", error);
+    alert("Failed to download image.");
+  }
 });
+
 
 document.getElementById("shareBtn").addEventListener("click", () => {
   const img = document.querySelector("#media img");
