@@ -82,6 +82,12 @@
     border-radius: 10px;
     margin-top: 25px;
   }
+  .POTD{
+    background-color: #1a1c3d;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+  }
   
   .milestone-entry,
   .milestone-item {
