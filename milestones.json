@@ -1982,6 +1982,646 @@
         "title": "Soyuz 2 Launch",
         "description": "The USSR launched Soyuz 2 as part of a test mission; its docking plan with Soyuz 3 was not successful, but valuable rendezvous data was gathered.",
         "country": "USSR"
+      },
+      {
+        "month": 10,
+        "day": 1,
+        "year": 1958,
+        "title": "NASA Founded",
+        "description": "The National Aeronautics and Space Administration (NASA) began operations, succeeding the National Advisory Committee for Aeronautics (NACA).",
+        "country": "USA"
+      },
+      {
+        "month": 10,
+        "day": 2,
+        "year": 1991,
+        "title": "Soyuz TM-13 Launch",
+        "description": "Soyuz TM-13 was launched carrying cosmonauts including the first Kazakh in space, Toktar Aubakirov.",
+        "country": "Russia/Kazakhstan"
+      },
+      {
+        "month": 10,
+        "day": 3,
+        "year": 1942,
+        "title": "First V-2 Rocket Launch",
+        "description": "Germany launched the first successful V-2 rocket, marking the first man-made object to reach space.",
+        "country": "Germany"
+      },
+      {
+        "month": 10,
+        "day": 4,
+        "year": 1957,
+        "title": "Sputnik 1 Launched",
+        "description": "The Soviet Union launched the first artificial satellite, Sputnik 1, beginning the space age.",
+        "country": "USSR"
+      },
+      {
+        "month": 10,
+        "day": 5,
+        "year": 1984,
+        "title": "Marc Garneau Becomes First Canadian in Space",
+        "description": "Garneau flew aboard Space Shuttle Challenger on mission STS-41-G.",
+        "country": "Canada"
+      },
+      {
+        "month": 10,
+        "day": 6,
+        "year": 1990,
+        "title": "Ulysses Solar Probe Launched",
+        "description": "NASA and ESA launched Ulysses to study the Sun's polar regions.",
+        "country": "International"
+      },
+      {
+        "month": 10,
+        "day": 7,
+        "year": 2002,
+        "title": "Soyuz TMA-1 Launched",
+        "description": "First Soyuz TMA spacecraft launched to the ISS.",
+        "country": "Russia"
+      },
+      {
+        "month": 10,
+        "day": 8,
+        "year": 2014,
+        "title": "India’s Mangalyaan Completes First Year in Orbit",
+        "description": "ISRO's Mars Orbiter Mission (Mangalyaan) completed one successful year orbiting Mars.",
+        "country": "India"
+      },
+      {
+        "month": 10,
+        "day": 9,
+        "year": 2009,
+        "title": "LCROSS Impacts Moon",
+        "description": "NASA’s LCROSS mission deliberately impacted the Moon to search for water ice.",
+        "country": "USA"
+      },
+      {
+        "month": 10,
+        "day": 10,
+        "year": 1967,
+        "title": "Outer Space Treaty Enforced",
+        "description": "Treaty entered into force banning nuclear weapons in space and limiting celestial body claims.",
+        "country": "International"
+      },
+      {
+        "month": 10,
+        "day": 11,
+        "year": 2000,
+        "title": "STS-92 Launched",
+        "description": "Space Shuttle Discovery launched for ISS assembly mission STS-92.",
+        "country": "USA"
+      },
+      {
+        "month": 10,
+        "day": 12,
+        "year": 1964,
+        "title": "Voskhod 1 Launched",
+        "description": "First spaceflight with a multi-person crew and no spacesuits.",
+        "country": "USSR"
+      },
+      {
+        "month": 10,
+        "day": 13,
+        "year": 2020,
+        "title": "NASA Approves Artemis I",
+        "description": "NASA officially greenlit Artemis I, the uncrewed lunar test flight of SLS and Orion.",
+        "country": "USA"
+      },
+      {
+        "month": 10,
+        "day": 14,
+        "year": 2012,
+        "title": "Felix Baumgartner's Supersonic Freefall",
+        "description": "Baumgartner broke the sound barrier in a skydive from 39 km altitude.",
+        "country": "Austria"
+      },
+      {
+        "month": 10,
+        "day": 15,
+        "year": 2003,
+        "title": "China Launches First Human to Space",
+        "description": "Yang Liwei flew aboard Shenzhou 5, becoming China’s first astronaut.",
+        "country": "China"
+      },
+      {
+        "month": 10,
+        "day": 16,
+        "year": 1969,
+        "title": "Soyuz 6, 7, and 8 In Orbit Together",
+        "description": "A joint Soviet mission with three spacecrafts flying simultaneously.",
+        "country": "USSR"
+      },
+      {
+        "month": 10,
+        "day": 17,
+        "year": 1989,
+        "title": "Galileo Spacecraft Launched",
+        "description": "NASA launched Galileo to study Jupiter and its moons.",
+        "country": "USA"
+      },
+      {
+        "month": 10,
+        "day": 18,
+        "year": 1963,
+        "title": "Félicette Launched",
+        "description": "France launched the first cat, Félicette, into space and returned her safely.",
+        "country": "France"
+      },
+      {
+        "month": 10,
+        "day": 19,
+        "year": 1998,
+        "title": "Deep Space 1 Launch",
+        "description": "NASA’s DS1 tested new propulsion systems and encountered comet Borrelly.",
+        "country": "USA"
+      },
+      {
+        "month": 10,
+        "day": 20,
+        "year": 2018,
+        "title": "BepiColombo Launched",
+        "description": "Joint ESA-JAXA mission to explore Mercury.",
+        "country": "Europe/Japan"
+      },
+      {
+        "month": 10,
+        "day": 21,
+        "year": 2008,
+        "title": "Chandrayaan-1 Announced Ready for Launch",
+        "description": "India prepped its first lunar probe for liftoff.",
+        "country": "India"
+      },
+      {
+        "month": 10,
+        "day": 22,
+        "year": 2008,
+        "title": "Chandrayaan-1 Launched",
+        "description": "ISRO launched its first mission to the Moon.",
+        "country": "India"
+      },
+      {
+        "month": 10,
+        "day": 23,
+        "year": 1965,
+        "title": "First Earth Observation Satellite Launched",
+        "description": "Nimbus 1 launched to study cloud cover and weather.",
+        "country": "USA"
+      },
+      {
+        "month": 10,
+        "day": 24,
+        "year": 1946,
+        "title": "First Picture of Earth from Space",
+        "description": "A V-2 rocket captured Earth from 65 miles above.",
+        "country": "USA"
+      },
+      {
+        "month": 10,
+        "day": 25,
+        "year": 1968,
+        "title": "Soyuz 3 Launched",
+        "description": "Soviet Union resumed crewed missions after the Soyuz 1 tragedy.",
+        "country": "USSR"
+      },
+      {
+        "month": 10,
+        "day": 26,
+        "year": 2004,
+        "title": "Soyuz TMA-5 Launch to ISS",
+        "description": "A crewed Soyuz launched to the ISS carrying Expedition 10.",
+        "country": "Russia"
+      },
+      {
+        "month": 10,
+        "day": 27,
+        "year": 1961,
+        "title": "Saturn I Rocket First Launch",
+        "description": "NASA’s Saturn I, precursor to the Saturn V, launched on its maiden flight.",
+        "country": "USA"
+      },
+      {
+        "month": 10,
+        "day": 28,
+        "year": 1971,
+        "title": "Prospero Launched",
+        "description": "UK’s only satellite launched into orbit using British rocket.",
+        "country": "UK"
+      },
+      {
+        "month": 10,
+        "day": 29,
+        "year": 1998,
+        "title": "John Glenn Returns to Space",
+        "description": "At age 77, Glenn flew on the Space Shuttle Discovery.",
+        "country": "USA"
+      },
+      {
+        "month": 10,
+        "day": 30,
+        "year": 1967,
+        "title": "Soyuz 2 Launched",
+        "description": "Uncrewed Soyuz 2 launched, planned for rendezvous with Soyuz 1.",
+        "country": "USSR"
+      },
+      {
+        "month": 10,
+        "day": 31,
+        "year": 2000,
+        "title": "Expedition 1 Crew Launched to ISS",
+        "description": "First long-duration crew launched to begin continuous ISS occupancy.",
+        "country": "International"
+      },
+      {
+        "day": 1,
+        "month": 11,
+        "year": 2000,
+        "title": "First Long-term Crew Arrives at ISS",
+        "country": "International",
+        "description": "Expedition 1 crew boarded the ISS, beginning permanent human presence in space."
+      },
+      {
+        "day": 2,
+        "month": 11,
+        "year": 1973,
+        "title": "Mariner 10 Launch",
+        "country": "USA",
+        "description": "NASA launched Mariner 10 to explore Venus and Mercury."
+      },
+      {
+        "day": 3,
+        "month": 11,
+        "year": 1957,
+        "title": "Laika in Space",
+        "country": "Soviet Union",
+        "description": "Sputnik 2 launched with Laika, the first living being to orbit Earth."
+      },
+      {
+        "day": 4,
+        "month": 11,
+        "year": 2013,
+        "title": "Mangalyaan Launch",
+        "country": "India",
+        "description": "ISRO launched Mars Orbiter Mission (Mangalyaan), India’s first mission to Mars."
+      },
+      {
+        "day": 5,
+        "month": 11,
+        "year": 1964,
+        "title": "Mariner 3 Launch Attempt",
+        "country": "USA",
+        "description": "NASA attempted to launch Mariner 3 to Mars but the mission failed due to payload shroud issues."
+      },
+      {
+        "day": 6,
+        "month": 11,
+        "year": 1971,
+        "title": "Prospero Satellite Tracked",
+        "country": "UK",
+        "description": "UK's only satellite launched using a British rocket continued transmissions in orbit."
+      },
+      {
+        "day": 7,
+        "month": 11,
+        "year": 1967,
+        "title": "Surveyor 6 Launch",
+        "country": "USA",
+        "description": "NASA launched Surveyor 6 to study the Moon’s surface."
+      },
+      {
+        "day": 8,
+        "month": 11,
+        "year": 2005,
+        "title": "Venus Express Launch",
+        "country": "ESA",
+        "description": "European Space Agency launched Venus Express to study Venus’ atmosphere."
+      },
+      {
+        "day": 9,
+        "month": 11,
+        "year": 1967,
+        "title": "Apollo 4 Launch",
+        "country": "USA",
+        "description": "First test flight of the Saturn V rocket for the Apollo program."
+      },
+      {
+        "day": 10,
+        "month": 11,
+        "year": 1982,
+        "title": "STS-5 Launch",
+        "country": "USA",
+        "description": "First operational shuttle flight carrying commercial satellites."
+      },
+      {
+        "day": 11,
+        "month": 11,
+        "year": 1966,
+        "title": "Gemini 12 Launch",
+        "country": "USA",
+        "description": "Final mission of NASA's Gemini program, testing spacewalk techniques."
+      },
+      {
+        "day": 12,
+        "month": 11,
+        "year": 2014,
+        "title": "Philae Lands on Comet",
+        "country": "ESA",
+        "description": "Philae lander of Rosetta mission made historic landing on Comet 67P."
+      },
+      {
+        "day": 13,
+        "month": 11,
+        "year": 1971,
+        "title": "Mariner 9 Enters Mars Orbit",
+        "country": "USA",
+        "description": "First spacecraft to orbit another planet—Mars."
+      },
+      {
+        "day": 14,
+        "month": 11,
+        "year": 1969,
+        "title": "Apollo 12 Launch",
+        "country": "USA",
+        "description": "Second crewed mission to land on the Moon."
+      },
+      {
+        "day": 15,
+        "month": 11,
+        "year": 1988,
+        "title": "Buran Shuttle Launch",
+        "country": "Soviet Union",
+        "description": "Only flight of the Soviet space shuttle Buran, launched unmanned."
+      },
+      {
+        "day": 16,
+        "month": 11,
+        "year": 2022,
+        "title": "Artemis I Launch",
+        "country": "USA",
+        "description": "First mission of NASA’s Artemis program using Space Launch System."
+      },
+      {
+        "day": 17,
+        "month": 11,
+        "year": 1970,
+        "title": "Luna 17 Lands on Moon",
+        "country": "Soviet Union",
+        "description": "Luna 17 delivered Lunokhod 1, the first successful lunar rover."
+      },
+      {
+        "day": 18,
+        "month": 11,
+        "year": 1969,
+        "title": "Apollo 12 Enters Lunar Orbit",
+        "country": "USA",
+        "description": "Apollo 12 crew entered orbit around the Moon, preparing for lunar landing."
+      },
+      {
+        "day": 19,
+        "month": 11,
+        "year": 1969,
+        "title": "Apollo 12 Moon Landing",
+        "country": "USA",
+        "description": "Apollo 12 astronauts landed near Surveyor 3 on the Moon."
+      },
+      {
+        "day": 20,
+        "month": 11,
+        "year": 1998,
+        "title": "Zarya Module Launch",
+        "country": "International",
+        "description": "Zarya, the first module of the ISS, was launched by Russia for NASA."
+      },
+      {
+        "day": 21,
+        "month": 11,
+        "year": 2002,
+        "title": "Expedition 6 Crew Launch",
+        "country": "International",
+        "description": "Expedition 6 crew launched to the ISS aboard Space Shuttle Endeavour."
+      },
+      {
+        "day": 22,
+        "month": 11,
+        "year": 1967,
+        "title": "Soyuz 7K-OK Launch",
+        "country": "Soviet Union",
+        "description": "Test flight for docking mechanism and spaceflight systems."
+      },
+      {
+        "day": 23,
+        "month": 11,
+        "year": 1977,
+        "title": "Meteosat-1 Operational",
+        "country": "ESA",
+        "description": "Europe’s first meteorological satellite began operations."
+      },
+      {
+        "day": 24,
+        "month": 11,
+        "year": 1969,
+        "title": "Apollo 12 Returns to Earth",
+        "country": "USA",
+        "description": "Crew splashed down in the Pacific after successful lunar mission."
+      },
+      {
+        "day": 25,
+        "month": 11,
+        "year": 2005,
+        "title": "Mars Reconnaissance Orbiter Tests",
+        "country": "USA",
+        "description": "MRO performed test maneuvers before approaching Mars."
+      },
+      {
+        "day": 26,
+        "month": 11,
+        "year": 2011,
+        "title": "Curiosity Rover Launch",
+        "country": "USA",
+        "description": "NASA launched Mars Science Laboratory mission with Curiosity rover."
+      },
+      {
+        "day": 27,
+        "month": 11,
+        "year": 1965,
+        "title": "Launch of COSMOS 96",
+        "country": "Soviet Union",
+        "description": "Unsuccessful Venus mission launched from Baikonur Cosmodrome."
+      },
+      {
+        "day": 28,
+        "month": 11,
+        "year": 1983,
+        "title": "STS-9 Mission Launch",
+        "country": "USA",
+        "description": "Carried Spacelab-1, first international microgravity lab in space."
+      },
+      {
+        "day": 29,
+        "month": 11,
+        "year": 1961,
+        "title": "Mercury-Atlas 5 Launch",
+        "country": "USA",
+        "description": "Chimpanzee Enos orbited Earth, a precursor to human orbital flight."
+      },
+      {
+        "day": 30,
+        "month": 11,
+        "year": 2000,
+        "title": "ISS Expedition 1 Operations Begin",
+        "country": "International",
+        "description": "Expedition 1 crew began regular operations aboard the ISS."
+      },
+      {
+        "month": 12,
+        "day": 13,
+        "year": 2024,
+        "title": "Geminid Meteor Shower Peaks",
+        "description": "The Geminid meteor shower peaked, offering up to 150 meteors per hour for skywatchers.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 14,
+        "year": 2024,
+        "title": "Moon and Jupiter Conjunction",
+        "description": "The Moon and Jupiter were in conjunction, appearing close together in the night sky.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 15,
+        "year": 2024,
+        "title": "Full Moon (Cold Moon)",
+        "description": "The full moon, known as the Cold Moon, occurred, marking the last full moon of the year.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 16,
+        "year": 2024,
+        "title": "Moon and Pleiades Close Approach",
+        "description": "The Moon and the Pleiades star cluster appeared close together in the sky.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 17,
+        "year": 2024,
+        "title": "Moon and Aldebaran Close Approach",
+        "description": "The Moon and Aldebaran, the brightest star in Taurus, appeared close together in the sky.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 18,
+        "year": 2024,
+        "title": "Moon and Mars Conjunction",
+        "description": "The Moon and Mars were in conjunction, appearing close together in the night sky.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 19,
+        "year": 2024,
+        "title": "Moon and Pollux Close Approach",
+        "description": "The Moon and Pollux, the brightest star in Gemini, appeared close together in the sky.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 20,
+        "year": 2024,
+        "title": "Moon and Regulus Close Approach",
+        "description": "The Moon and Regulus, the brightest star in Leo, appeared close together in the sky.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 21,
+        "year": 2024,
+        "title": "December Solstice",
+        "description": "The December solstice occurred, marking the shortest day of the year in the Northern Hemisphere.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 22,
+        "year": 2024,
+        "title": "Ursid Meteor Shower Peaks",
+        "description": "The Ursid meteor shower peaked, offering a modest display of meteors for observers.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 23,
+        "year": 2024,
+        "title": "Moon at Apogee",
+        "description": "The Moon reached apogee, its farthest point from Earth in its orbit.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 24,
+        "year": 1979,
+        "title": "Ariane 1 Launch",
+        "description": "The European Space Agency launched its first Ariane 1 rocket, marking the beginning of Europe's independent launch capabilities.",
+        "country": "ESA"
+      },
+      {
+        "month": 12,
+        "day": 25,
+        "year": 2021,
+        "title": "James Webb Space Telescope Launched",
+        "description": "NASA launched the James Webb Space Telescope aboard an Ariane 5 rocket from French Guiana.",
+        "country": "USA / ESA / CSA"
+      },
+      {
+        "month": 12,
+        "day": 26,
+        "year": 2003,
+        "title": "Beagle 2 Mars Lander Released",
+        "description": "The Beagle 2 lander was released from Mars Express for its descent to the Martian surface.",
+        "country": "UK / ESA"
+      },
+      {
+        "month": 12,
+        "day": 27,
+        "year": 1968,
+        "title": "Apollo 8 Returns to Earth",
+        "description": "Apollo 8, the first crewed mission to orbit the Moon, safely splashed down in the Pacific Ocean.",
+        "country": "USA"
+      },
+      {
+        "month": 12,
+        "day": 28,
+        "year": 2024,
+        "title": "Mercury Elongation",
+        "description": "Mercury reached its greatest eastern elongation, visible in the evening sky after sunset.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 29,
+        "year": 2024,
+        "title": "Saturn and Moon Conjunction",
+        "description": "Saturn and the Moon appeared in conjunction, visible close to each other in the night sky.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 30,
+        "year": 2024,
+        "title": "Last Quarter Moon",
+        "description": "The Moon reached its last quarter phase, visible in the early morning hours.",
+        "country": "Global"
+      },
+      {
+        "month": 12,
+        "day": 31,
+        "year": 2024,
+        "title": "Farewell to 2024 Skywatching Events",
+        "description": "Skywatchers reflected on a year filled with astronomical events including eclipses, meteor showers, and planetary alignments.",
+        "country": "Global"
       }
   ]
   
