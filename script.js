@@ -13,7 +13,7 @@ let milestones = [];
 
 async function loadMilestones() {
   try {
-    const res = await fetch('milestone.json');
+    const res = await fetch('/milestones.json');
     milestones = await res.json();
   } catch (error) {
     console.error("Failed to load milestone.json:", error);
