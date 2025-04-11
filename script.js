@@ -67,18 +67,24 @@ dateInput.addEventListener("change", async () => {
 // Initial milestone load
 loadMilestones();
 
-document.getElementById("downloadBtn").addEventListener("click", async () => {
+document.getElementById("downloadBtn").addEventListener("click", () => {
   const img = document.querySelector("#media img");
-  if (!img) return alert("Only images can be downloaded.");
+  if (!img) {
+    alert("No image available to download.");
+    return;
+  }
 
-  const imageURL = img.src;
+  const imageUrl = img.src;
+  const imageName = `NASA_APOD_${document.getElementById("dateText").textContent}.jpg`;
+
   const a = document.createElement("a");
-  a.href = imageURL;
-  a.download = "NASA_APOD.jpg";
+  a.href = imageUrl;
+  a.download = imageName;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
 });
+
 document.getElementById("shareBtn").addEventListener("click", () => {
   const img = document.querySelector("#media img");
   const title = document.getElementById("title").textContent;
