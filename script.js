@@ -37,10 +37,15 @@ window.addEventListener('DOMContentLoaded', async () => {
 
   const today = new Date();
   const year = today.getFullYear();
-  const month = today.getMonth() + 1;
-  const day = today.getDate();
-  const todayMilestones = milestones.filter(m => m.month === month && m.day === day);
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const day = String(today.getDate()).padStart(2, '0');
+  const localToday = `${year}-${month}-${day}`;
 
+  // Set today's date as default in input
+  dateInput.value = localToday;
+
+  // Load today's milestones
+  const todayMilestones = milestones.filter(m => m.month === Number(month) && m.day === Number(day));
   if (todayMilestones.length > 0) {
     milestoneContent.innerHTML = todayMilestones.map(m => `
       <div class="milestone-entry">
@@ -50,7 +55,11 @@ window.addEventListener('DOMContentLoaded', async () => {
     `).join("");
     milestoneBox.classList.remove("hidden");
   }
+
+  // Optionally trigger APOD fetch on page load
+  dateInput.dispatchEvent(new Event('change'));
 });
+
 
 // Handle date selection and APOD fetch
 dateInput.addEventListener("change", async () => {
