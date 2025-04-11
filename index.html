@@ -9,13 +9,14 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="night-sky">
+  <div class="background"></div>
+  <div class="night-sky" >
     <div class="stars-mid"></div>
 
     <div class="stars"></div>
+    <div id="starContainer"></div>
     <div class="twinkling"></div>
-  </div>
-  <!-- 🌌 Parallax Starfield Layers -->
+    <!-- 🌌 Parallax Starfield Layers -->
   <div class="parallax-layer layer-back"></div>
   <div class="parallax-layer layer-mid"></div>
   <div class="parallax-layer layer-front"></div>
@@ -27,14 +28,10 @@
   <div class="comet"></div>
 
   <!-- 🌠 Shooting Stars -->
-  <div class="shooting-stars">
-    <div class="shooting-star"></div>
-    <div class="shooting-star"></div>
-    <div class="shooting-star"></div>
+  <div class="shooting-star-container" id="shootingStarContainer"></div>
+
   </div>
   
-
-
   <div class="logo-container">
     <img src="StarTrace-logo.jpg" alt="TuneTide Logo" class="logo spin-slow twinkle pulse-glow" />
   </div>

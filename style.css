@@ -1,85 +1,4 @@
-/* === Animation Keyframes === */
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-@keyframes accordion-down {
-  from { max-height: 0; opacity: 0; }
-  to { max-height: 500px; opacity: 1; }
-}
-
-@keyframes accordion-up {
-  from { max-height: 500px; opacity: 1; }
-  to { max-height: 0; opacity: 0; }
-}
-
-@keyframes twinkle {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.4; }
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-}
-
-@keyframes pulse-glow {
-  0% { box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); }
-  50% { box-shadow: 0 0 20px rgba(255, 255, 255, 0.6); }
-  100% { box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); }
-}
-
-/* === Animation Classes === */
-.spin-slow {
-  animation: spin 20s linear infinite;
-}
-
-.accordion-down {
-  animation: accordion-down 0.2s ease-out;
-}
-
-.accordion-up {
-  animation: accordion-up 0.2s ease-out;
-}
-
-.twinkle {
-  animation: twinkle 3s ease-in-out infinite;
-}
-
-.float {
-  animation: float 6s ease-in-out infinite;
-}
-
-.pulse-glow {
-  animation: pulse-glow 2s infinite;
-}
-
-/* === Logo Styling with Animations === */
-.logo-container {
-  text-align: center;
-  margin-top: 20px;
-  animation: float 6s ease-in-out infinite;
-}
-
-.logo {
-  max-width: 150px;
-  width: 15%;
-  height: auto;
-  margin-bottom: 10px;
-  border-radius: 20%;
-  animation: spin 20s linear infinite;
-}
-
-/* Responsive logo */
-@media screen and (max-width: 768px) {
-  .logo { width: 25%; }
-}
-@media screen and (max-width: 480px) {
-  .logo { width: 25%; }
-}
-
-/* === General Reset & Global Styles === */
+/* === Global Reset & Fonts === */
 * {
   margin: 0;
   padding: 0;
@@ -89,32 +8,107 @@
 }
 
 body {
-  background-image: url(StarTrace-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Optional: gives a nice parallax feel */
-  min-height: 100vh; /* Ensures body covers full viewport height */
-  
   color: #f0f0f0;
   padding: 20px;
   text-align: center;
+  overflow-x: hidden;
+  background-image: url('StarTrace-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* === Night Sky & Particles === */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: transparent;
+  z-index: -20;
+}
+
+.night-sky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -10;
+  pointer-events: none;
+  background: transparent;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 2s infinite ease-in-out;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+
+/* === Shooting Stars === */
+.shooting-star {
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, white, transparent);
+  animation: shoot 3s linear infinite;
+  opacity: 0.7;
+}
+
+@keyframes shoot {
+  0% {
+    transform: translateX(-100px) translateY(0px) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(150vw) translateY(100vh) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+/* === Logo === */
+.logo-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo {
+  max-width: 150px;
+  width: 15%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 20%;
+}
+
+/* Responsive logo */
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 25%;
+  }
 }
 
 /* === Headings === */
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
   color: #f7d84c;
-  animation: twinkle 3s ease-in-out infinite;
 }
 h2 {
   color: #f9e488;
-  animation: twinkle 3s ease-in-out infinite;
 }
 h3 {
   color: #fae068;
-  animation: twinkle 3s ease-in-out infinite;
 }
 
 /* === Date Input === */
@@ -132,31 +126,23 @@ h3 {
   color: #00ffcc;
   margin: 15px 0;
 }
-
 .hidden {
   display: none;
 }
 
-/* === Milestone Section === */
-.milestone-box {
-  background-color: #00001f;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 25px;
-  animation: accordion-down 0.2s ease-out;
-}
-
+/* === Milestones === */
+.milestone-box,
 .POTD {
-  background-color: #00001f;
+  background-color: #000000;
+  
   padding: 20px;
   border-radius: 10px;
   margin-top: 25px;
-  animation: accordion-up 0.2s ease-out;
 }
 
 .milestone-entry,
 .milestone-item {
-  background-color: #00001f;
+  background-color:#000000;
   padding: 10px;
   border-radius: 8px;
   margin: 10px 0;
@@ -174,11 +160,7 @@ h3 {
   font-style: italic;
 }
 
-.milestone-item p {
-  margin: 5px 0;
-}
-
-/* === APOD Section === */
+/* === APOD === */
 #apodBox {
   margin-top: 30px;
 }
@@ -189,10 +171,8 @@ h3 {
   border-radius: 10px;
   margin: 15px 0;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-  animation: float 6s ease-in-out infinite;
 }
 
-/* Explanation */
 #explanation {
   text-align: justify;
   padding: 10px;
@@ -200,13 +180,10 @@ h3 {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 10px;
   margin-top: 15px;
+  font-size: 1rem;
 }
 
-/* Buttons */
-.apod-actions {
-  margin-top: 15px;
-}
-
+/* === Buttons === */
 button {
   background-color: #ff4081;
   border: none;
@@ -217,231 +194,86 @@ button {
   font-size: 1rem;
   cursor: pointer;
   transition: background 0.3s ease;
-  animation: pulse-glow 2s infinite;
 }
 
 button:hover {
   background-color: #e73370;
 }
 
-/* Footer Styling */
+.apod-actions button {
+  padding: 8px 14px;
+  margin-right: 10px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.apod-actions button:hover {
+  background-color: #333;
+}
+
+/* === Footer === */
 .footer {
   text-align: center;
   font-size: 14px;
   color: rgb(255, 231, 93);
-  background: #000017;
+  background: #000000;
   opacity: 0.5;
   padding: 10px 0;
   border-radius: 5px;
   width: 100%;
-  top: 2px;
-  animation: twinkle 3s ease-in-out infinite;
 }
 
-/* === Responsive Styles === */
 @media screen and (max-width: 480px) {
-  h1 { font-size: 1.6rem; }
-  input[type="date"] { width: 90%; }
-  #apodBox, .milestone-box { padding: 1rem; margin: 1rem; }
-  #explanation { font-size: 0.95rem; }
-  #milestoneContent div { font-size: 0.9rem; }
-
   .footer {
     font-size: 0.9rem;
     padding: 12px 5px;
   }
-}
 
-@media (min-width: 481px) and (max-width: 768px) {
-  h1 { font-size: 1.8rem; }
-  input[type="date"] { font-size: 1rem; }
-  #apodBox, .milestone-box { padding: 1.2rem; }
-  #explanation { font-size: 1rem; }
-}
+  h1 {
+    font-size: 1.6rem;
+  }
 
-@media (min-width: 769px) {
-  h1 { font-size: 2.5rem; }
-  #apodBox, .milestone-box { padding: 2rem; }
-  #explanation { font-size: 1.05rem; }
-  #milestoneContent div { font-size: 1rem; }
-}
-/* === Night Sky & Animated Stars === */
-.night-sky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(StarTrace-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Optional: gives a nice parallax feel */
-  min-height: 100vh; /* Ensures body covers full viewport height */
-  overflow: hidden;
-  z-index: -10;
-}
+  #explanation {
+    font-size: 0.95rem;
+  }
 
-/* === Massive Star Field === */
-/* Dense Stars – Twinkling without shifting position */
-.stars,
-.stars::before,
-.stars::after {
-  content: "";
+  #milestoneContent div {
+    font-size: 0.9rem;
+  }
+
+  input[type="date"] {
+    width: 90%;
+  }
+
+  #apodBox,
+  .milestone-box {
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
+/* === Glowing Stars === */
+.glowing-star {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 1px;
-  height: 1px;
-  background: transparent;
-  box-shadow:
-    20px 30px white, 40px 120px white, 60px 200px white, 80px 80px white,
-    100px 300px white, 120px 50px white, 140px 90px white, 160px 210px white,
-    180px 130px white, 200px 60px white, 220px 300px white, 240px 180px white,
-    260px 100px white, 280px 230px white, 300px 160px white, 320px 120px white,
-    340px 200px white, 360px 260px white, 380px 170px white, 400px 190px white,
-    420px 100px white, 440px 300px white, 460px 140px white, 480px 250px white,
-    500px 90px white, 520px 220px white, 540px 180px white, 560px 300px white,
-    580px 130px white, 600px 110px white, 620px 250px white, 640px 200px white,
-    660px 300px white, 680px 190px white, 700px 120px white, 720px 260px white,
-    740px 90px white, 760px 180px white, 780px 270px white, 800px 150px white,
-    820px 230px white, 840px 300px white, 860px 120px white, 880px 260px white,
-    900px 160px white, 920px 240px white, 940px 100px white, 960px 290px white,
-    980px 180px white, 1000px 220px white, 1020px 200px white, 1040px 130px white;
-  animation: twinkle 4s ease-in-out infinite alternate;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff 30%, #ffe600 70%);
+  box-shadow: 0 0 6px 2px #ffe600;
+  animation: glowStar 3s ease-in-out infinite alternate;
+  opacity: 0.8;
 }
 
-.stars::before {
-  left: -150px;
-  top: 100px;
-  animation-delay: 1.5s;
+@keyframes glowStar {
+  0% {
+    transform: scale(1);
+    opacity: 0.4;
+    box-shadow: 0 0 4px 1px #fcf8d3;
+  }
+  100% {
+    transform: scale(1.3);
+    opacity: 1;
+    box-shadow: 0 0 10px 4px #ffe600;
+  }
 }
-
-.stars::after {
-  left: 100px;
-  top: -120px;
-  animation-delay: 2.8s;
-}
-/* === Mid Section Twinkling Stars === */
-.stars-mid {
-  position: absolute;
-  top: 30%; /* middle portion */
-  left: 40;
-  width: 100%;
-  height: 40%; /* center band */
-  pointer-events: none;
-  z-index: -5;
-}
-
-.stars-mid::before,
-.stars-mid::after {
-  content: "";
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  background: transparent;
-  box-shadow:
-  3vw 32vh white, 6vw 35vh white, 9vw 38vh white, 12vw 34vh white,
-  15vw 36vh white, 18vw 33vh white, 21vw 39vh white, 24vw 31vh white,
-  27vw 35vh white, 30vw 37vh white, 33vw 32vh white, 36vw 38vh white,
-  39vw 34vh white, 42vw 36vh white, 45vw 33vh white, 48vw 39vh white,
-  51vw 31vh white, 54vw 35vh white, 57vw 37vh white, 60vw 32vh white,
-  63vw 38vh white, 66vw 34vh white, 69vw 36vh white, 72vw 33vh white,
-  75vw 39vh white, 78vw 31vh white, 81vw 35vh white, 84vw 37vh white,
-  87vw 32vh white, 90vw 38vh white, 93vw 34vh white, 96vw 36vh white,
-  2vw 42vh white, 5vw 45vh white, 8vw 48vh white, 11vw 44vh white,
-  14vw 46vh white, 17vw 43vh white, 20vw 49vh white, 23vw 41vh white,
-  26vw 45vh white, 29vw 47vh white, 32vw 42vh white, 35vw 48vh white,
-  38vw 44vh white, 41vw 46vh white, 44vw 43vh white, 47vw 49vh white,
-  50vw 41vh white, 53vw 45vh white, 56vw 47vh white, 59vw 42vh white,
-  62vw 48vh white, 65vw 44vh white, 68vw 46vh white, 71vw 43vh white,
-  74vw 49vh white, 77vw 41vh white, 80vw 45vh white, 83vw 47vh white,
-  86vw 42vh white, 89vw 48vh white, 92vw 44vh white, 95vw 46vh white,
-  1vw 38vh white, 4vw 39vh white, 7vw 40vh white, 10vw 41vh white,
-  13vw 42vh white, 16vw 43vh white, 19vw 44vh white, 22vw 45vh white,
-  25vw 46vh white, 28vw 47vh white, 31vw 48vh white, 34vw 49vh white,
-  37vw 50vh white, 40vw 36vh white, 43vw 37vh white, 46vw 38vh white,
-  49vw 39vh white, 52vw 40vh white, 55vw 41vh white, 58vw 42vh white,
-  61vw 43vh white, 64vw 44vh white, 67vw 45vh white, 70vw 46vh white,
-  73vw 47vh white, 76vw 48vh white, 79vw 49vh white, 82vw 50vh white,
-  85vw 34vh white, 88vw 36vh white, 91vw 38vh white, 94vw 40vh white,
-  97vw 42vh white, 99vw 44vh white;
-  animation: twinkle 3s ease-in-out infinite alternate;
-}
-
-.stars-mid::after {
-  left: 50px;
-  top: 30px;
-  animation-delay: 2s;
-}
-
-
-/* Twinkle only (no shaking or translation!) */
-@keyframes twinkle {
-  0%, 100% { opacity: 0.3; }
-  50% { opacity: 1; }
-}
- /* ==== Comet Animation ==== */
- .comet {
-  position: absolute;
-  top: -50px;
-  left: -100px;
-  width: 150px;
-  height: 2px;
-  background: linear-gradient(90deg, #fff, rgba(255,255,255,0));
-  box-shadow: 0 0 15px #fff;
-  transform: rotate(45deg);
-  animation: cometMove 12s linear infinite;
-  z-index: -5;
-}
-
-@keyframes cometMove {
-  0% { top: -50px; left: -100px; opacity: 0; }
-  10% { opacity: 1; }
-  100% { top: 100vh; left: 100vw; opacity: 0; }
-}
-
-/* ==== Shooting Stars ==== */
-.shooting-stars {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: -5;
-}
-
-.shooting-star {
-  position: absolute;
-  width: 80px;
-  height: 2px;
-  background: linear-gradient(90deg, white, transparent);
-  opacity: 0;
-  animation: shoot 5s ease-in-out infinite;
-}
-
-.shooting-star:nth-child(1) {
-  top: 20%;
-  left: 90%;
-  animation-delay: 1s;
-}
-
-.shooting-star:nth-child(2) {
-  top: 50%;
-  left: 70%;
-  animation-delay: 3s;
-}
-
-.shooting-star:nth-child(3) {
-  top: 70%;
-  left: 30%;
-  animation-delay: 5s;
-}
-
-@keyframes shoot {
-  0% { transform: translate(0, 0); opacity: 0; }
-  10% { opacity: 1; }
-  100% { transform: translate(-100vw, 100vh); opacity: 0; }
-}
-

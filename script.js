@@ -100,18 +100,25 @@ document.getElementById("shareBtn").addEventListener("click", () => {
 
   window.open(tweetUrl, "_blank");
 });
-const container = document.getElementById("starsContainer");
-const stars = 100;
 
-for (let i = 0; i < stars; i++) {
+const shootingStarContainer = document.getElementById("shootingStarContainer");
+
+for (let i = 0; i < 10; i++) {
   const star = document.createElement("div");
-  star.classList.add("star");
+  star.classList.add("shooting-star");
+  star.style.top = `${Math.random() * 80}vh`;
+  star.style.left = `${Math.random() * 100}vw`;
+  star.style.animationDelay = `${Math.random() * 15}s`;
+  star.style.animationDuration = `${2 + Math.random() * 2}s`;
+  shootingStarContainer.appendChild(star);
+}
+const starContainer = document.getElementById("starContainer");
 
-  // Random position centered around the middle 60% area
-  star.style.top = `${30 + Math.random() * 40}%`;
-  star.style.left = `${20 + Math.random() * 60}%`;
-
-  // Random animation delay
-  star.style.animationDelay = `${Math.random() * 3}s`;
-
-  container.appendChild(star);}
+for (let i = 0; i < 80; i++) {
+  const glowStar = document.createElement("div");
+  glowStar.classList.add("glowing-star");
+  glowStar.style.top = `${Math.random() * 100}vh`;
+  glowStar.style.left = `${Math.random() * 100}vw`;
+  glowStar.style.animationDelay = `${Math.random() * 5}s`;
+  starContainer.appendChild(glowStar);
+}
