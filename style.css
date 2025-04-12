@@ -289,3 +289,9 @@ html {
     background-position: center;
   }
 }
+.no-milestone {
+  color: #ccc;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+}
