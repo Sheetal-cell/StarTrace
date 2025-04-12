@@ -53,13 +53,18 @@ window.addEventListener('DOMContentLoaded', async () => {
         <em>${m.country}</em>: ${m.description}
       </div>
     `).join("");
-    milestoneBox.classList.remove("hidden");
+  } else {
+    milestoneContent.innerHTML = `
+      <div class="milestone-entry no-milestone">
+        🚫 No milestones for this day.
+      </div>
+    `;
   }
+  milestoneBox.classList.remove("hidden");
 
-  // Optionally trigger APOD fetch on page load
+  // Trigger APOD fetch on load
   dateInput.dispatchEvent(new Event('change'));
 });
-
 
 // Handle date selection and APOD fetch
 dateInput.addEventListener("change", async () => {
@@ -70,7 +75,6 @@ dateInput.addEventListener("change", async () => {
   apodBox.classList.add("hidden");
   milestoneBox.classList.add("hidden");
 
-  // Parse selected date into day/month for milestone search
   const [year, month, day] = selectedDate.split("-").map(Number);
 
   try {
@@ -96,11 +100,11 @@ dateInput.addEventListener("change", async () => {
   } catch (error) {
     console.warn("Error fetching APOD:", error);
 
-    // Show user-friendly message in APOD box
+    // Fallback for missing APOD
     apodBox.classList.remove("hidden");
-    title.textContent = "APOD Not Available Yet";
+    title.textContent = "SPOD Not Available Yet";
     dateText.textContent = selectedDate;
-    media.innerHTML = `<p style="color: white;">The Astronomy Picture of the Day for this date isn't available yet. Please check back later!</p>`;
+    media.innerHTML = `<p style="color: white;">The Space Picture of the Day for this date isn't available yet. Please check back later!</p>`;
     explanation.textContent = "";
   } finally {
     // Always check and display milestones
@@ -112,13 +116,18 @@ dateInput.addEventListener("change", async () => {
           <em>${m.country}</em>: ${m.description}
         </div>
       `).join("");
-      milestoneBox.classList.remove("hidden");
+    } else {
+      milestoneContent.innerHTML = `
+        <div class="milestone-entry no-milestone">
+          🚫 No milestones for this day.
+        </div>
+      `;
     }
+    milestoneBox.classList.remove("hidden");
 
     spinner.classList.add("hidden");
   }
 });
-
 
 // Download Image
 document.getElementById("downloadBtn").addEventListener("click", () => {
